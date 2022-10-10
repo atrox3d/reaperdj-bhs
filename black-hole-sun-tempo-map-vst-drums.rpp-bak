@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "6.68/win64" 1665321606
+<REAPER_PROJECT 0.1 "6.68/win64" 1665380642
   <NOTES 0 2
   >
   RIPPLE 0
@@ -16,13 +16,13 @@
   TIMEMODE 1 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 263.78030999782601
-  ZOOM 13.12113654529546 3157 0
-  VZOOMEX 26 0
+  CURSOR 0
+  ZOOM 6.00912346522898 0 0
+  VZOOMEX 25 0
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
-  LOOP 1
+  LOOP 0
   LOOPGRAN 0 4
   RECORD_PATH "" ""
   <RECORD_CFG
@@ -59,9 +59,9 @@
   >
   GLOBAL_AUTO -1
   TEMPO 120 4 4
-  PLAYRATE 1.48 1 0.25 4
-  SELECTION 25.619696890139 62.29104281133
-  SELECTION2 25.619696890139 62.29104281133
+  PLAYRATE 1 1 0.25 4
+  SELECTION 0 0
+  SELECTION2 0 0
   MASTERAUTOMODE 0
   MASTERTRACKHEIGHT 0 0
   MASTERPEAKCOL 16576
@@ -191,7 +191,7 @@
   MARKER 15 166.735303599209 "6/4 Bridge-2" 0 0 1 R {AA3DE76D-6A5C-4565-98C6-951281A29F89}
   MARKER 16 173.48217311520099 "6/4 Bridge-3" 0 0 1 R {985D3E7E-8D2E-4704-A927-95783DE1F068}
   MARKER 17 180.14705473758301 "2/4 Fill pre-solo" 0 0 1 R {50065D08-8420-46D0-BACD-E62DEB912A30}
-  MARKER 12 180.14705473758301 "" 1 0 1 R {923C1C90-B228-4EB2-A88A-5A87D26B6E8C}
+  MARKER 12 180.14705473758301 "2/4 Fill pre-solo" 1 0 1 R {923C1C90-B228-4EB2-A88A-5A87D26B6E8C}
   MARKER 12 182.369088571942 "" 1 0 1 R
   MARKER 18 182.369088571942 "9/4 solo-1" 0 0 1 R {387B5418-B11C-421D-8A52-4F8AF93CD313}
   MARKER 13 182.369088571942 "9/4 Solo 6" 1 33489024 1 R {61664B77-506C-4497-A064-FEC366D37143}
@@ -205,7 +205,7 @@
   MARKER 14 212.02422512720599 "Sospeso 3" 1 0 1 R {5BA0B38E-1EB8-4598-8546-1A1371BE4596}
   MARKER 14 225.62893375301999 "" 1 0 1 R
   MARKER 25 225.62893375301999 "2/4 Fill" 0 0 1 R {A30CB5D4-D9D0-4F4F-9FCD-3E0FA4EF0B29}
-  MARKER 15 225.62893375301999 "" 1 0 1 R {B2902DC3-8955-4DC3-A77E-83975649C06F}
+  MARKER 15 225.62893375301999 "24/ Fill" 1 0 1 R {B2902DC3-8955-4DC3-A77E-83975649C06F}
   MARKER 15 227.853444341043 "" 1 0 1 R
   MARKER 26 227.853444341043 "Chorus 3-1" 0 0 1 R {0998CFF5-93AA-4BB3-B13D-5702CE5C4F5A}
   MARKER 16 227.853444341043 "Chorus3 2x4" 1 16777471 1 R {10E8E07C-A9FB-47CA-988D-EA92311B842B}
@@ -221,8 +221,8 @@
   MARKER 33 296.95302095552597 "6/4 Finale-5" 0 0 1 R {39D8ABF9-1B0D-48AF-9389-7E25EB708954}
   MARKER 34 303.54619905263303 "6/4 Finale-6" 0 0 1 R {FDC8792D-0DE8-411F-AF36-D98A34A7A538}
   MARKER 35 310.149932043403 "2/4 Fill" 0 0 1 R {4FD2D574-DA4C-4D64-9110-C85934FEF400}
-  MARKER 18 310.149932043403 "" 1 0 1 R {BA057FCF-7262-4011-A77E-1F97054AC5DA}
-  MARKER 18 312.35117637366 "" 1 0 1 R
+  MARKER 18 310.149932043403 "2/4 Fill" 9 0 1 R {BA057FCF-7262-4011-A77E-1F97054AC5DA}
+  MARKER 18 312.35117637366 "" 9 0 1 R
   MARKER 36 312.35117637366 "9/4 End" 0 0 1 R {C5AB00E6-429C-497D-AB1D-CCB85202BF1B}
   MARKER 19 312.35117637366 "9/4 End" 1 33489024 1 R {08527744-FC44-41EC-8CED-55B949FC8C52}
   MARKER 19 317.41302623842984 "" 1 33489024 1 R
@@ -241,7 +241,7 @@
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -300,7 +300,7 @@
     <ITEM
       POSITION 9.33251044044554
       SNAPOFFS 0
-      LENGTH 13.89899219635092
+      LENGTH 16.28718644969346
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0.01 0 1 0 0 0
@@ -316,28 +316,6 @@
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {A47F494F-0A0E-4BF0-B5F3-7D931D9BF321}
-      <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
-      >
-    >
-    <ITEM
-      POSITION 23.23150263679646
-      SNAPOFFS 0
-      LENGTH 2.38819425334285
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.002548 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {7F1B7B4E-E800-4B11-87A9-6527C99FE870}
-      IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
-      VOLPAN 1 0 1 -1
-      SOFFS 20.5336091709219
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {210FFED0-707B-45D4-A25A-ADE09E4456B6}
       <SOURCE MP3
         FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
       >
@@ -391,7 +369,7 @@
     <ITEM
       POSITION 43.93938467068385
       SNAPOFFS 0
-      LENGTH 18.35165814064641
+      LENGTH 18.35165814064615
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0.01 0 1 0 0 0
@@ -412,46 +390,46 @@
       >
     >
     <ITEM
-      POSITION 62.29104281133026
+      POSITION 62.29104281133
       SNAPOFFS 0
-      LENGTH 2.27636116759617
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.007105 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {24D45482-BE35-4691-AD57-543B607BC241}
-      IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
-      VOLPAN 1 0 1 -1
-      SOFFS 59.59314934545569
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {1A71165E-F4C5-4B41-857B-68B769E8EF41}
-      <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
-      >
-    >
-    <ITEM
-      POSITION 64.56740397892644
-      SNAPOFFS 0
-      LENGTH 9.06522551050783
+      LENGTH 2.27636116759599
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0.007105 0 1 0 0 0
       FADEOUT 1 0.01 0 1 0 0 0
       MUTE 0 0
-      COLOR 16777471 R
       SEL 0
       IGUID {3EFCDF4A-C42C-4D5A-BCC0-254CD49C94A7}
       IID 1
       NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
       VOLPAN 1 0 1 -1
-      SOFFS 61.86951051305186
+      SOFFS 59.59314934545542
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {3FFEEABE-DF3A-4719-BA07-2EDE971F6B46}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 64.56740397892599
+      SNAPOFFS 0
+      LENGTH 9.06522551050827
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      COLOR 16777471 R
+      SEL 0
+      IGUID {A2E0C201-6673-40DD-A2DD-F5556519F954}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 61.86951051305142
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D58CA46A-FBAB-451E-9CBD-AA6612467C07}
       <SOURCE MP3
         FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
       >
@@ -557,7 +535,7 @@
       FADEOUT 1 0.01 0 1 0 0 0
       MUTE 0 0
       COLOR 21004543 R
-      SEL 1
+      SEL 0
       IGUID {64F0E45E-D98C-4845-AAFD-E1D960B48052}
       IID 1
       NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
@@ -1601,13 +1579,81 @@
       >
     >
   >
-  <TRACK {BD95EEC9-E45F-4C77-AD63-189C703DE2DC}
+  <TRACK {739FDA3A-D852-4ABC-9A73-0667DEFBE6EF}
     NAME NODRUMS
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
     MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
+    SEL 1
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {739FDA3A-D852-4ABC-9A73-0667DEFBE6EF}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 8.75797175035933
+      SNAPOFFS 0
+      LENGTH 85.303764058737
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {C0D7A7CA-3428-443B-9A6D-CB65DE457330}
+      IID 2
+      NAME "Soundgarden-Black Hole Sun (drumless)-.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B599D6C9-2592-4B32-A7FC-06E1D3BC9BEA}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun (drumless)-.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 94.06173580909633
+      SNAPOFFS 0
+      LENGTH 243.00319427459635
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {130CF2AB-BBE8-48EB-A6DB-56A99C654933}
+      IID 2
+      NAME "Soundgarden-Black Hole Sun (drumless)-.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 85.303764058737
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {589B9D9D-3EC9-4C56-A044-6389C9C5A983}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun (drumless)-.mp3" 1
+      >
+    >
+  >
+  <TRACK {BD95EEC9-E45F-4C77-AD63-189C703DE2DC}
+    NAME NODRUMS
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 1 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
@@ -1625,23 +1671,23 @@
     MIDIOUT -1
     MAINSEND 1 0
     <ITEM
-      POSITION 8.75797175035933
+      POSITION 25.619696890139
       SNAPOFFS 0
-      LENGTH 85.303764058737
+      LENGTH 36.671345921191
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0.01 0 1 0 0 0
       FADEOUT 1 0.01 0 1 0 0 0
       MUTE 0 0
       SEL 0
-      IGUID {6C557301-E193-47BA-8E0A-4E6A5FB8A44F}
+      IGUID {99D9F51C-BB9A-40BA-9165-9C598C963FF1}
       IID 2
       NAME "Soundgarden-Black Hole Sun (drumless)-.mp3"
       VOLPAN 1 0 1 -1
-      SOFFS 0
+      SOFFS 16.86172513977967
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {549E08D9-B224-4DB0-9034-B9C47CF49D9C}
+      GUID {AADC06B4-B023-4A60-B9F9-30B1C798ED93}
       <SOURCE MP3
         FILE "Soundgarden-Black Hole Sun (drumless)-.mp3" 1
       >
@@ -1666,6 +1712,1328 @@
       GUID {84399126-B608-4355-9E34-029C8484B125}
       <SOURCE MP3
         FILE "Soundgarden-Black Hole Sun (drumless)-.mp3" 1
+      >
+    >
+  >
+  <TRACK {F99ABDA8-FAFA-4B47-9988-F9CF0005A2F2}
+    NAME DRUMS
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 1 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {F99ABDA8-FAFA-4B47-9988-F9CF0005A2F2}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 4.25797175035932
+      SNAPOFFS 0
+      LENGTH 5.07453869008622
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D5B5A9F8-AAC5-4BDC-8416-E9DBBA4ADD7B}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 1.56007828448476
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9354D684-826A-4238-9C0D-057B1A7420C8}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 9.33251044044554
+      SNAPOFFS 0
+      LENGTH 9.26599479757069
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {6A1EF513-2F53-41C1-8C26-46252066926B}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 6.63461697457098
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {AE6D57F1-0250-4998-AB8E-92E1870C1380}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 18.59850523801623
+      SNAPOFFS 0
+      LENGTH 4.63299739878023
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {341A2FD5-E37F-4392-B55A-A3B3F414D8B2}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 15.90061177214167
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F14F0AFB-D631-4D81-B4E8-FA9D46F0E078}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 23.23150263679646
+      SNAPOFFS 0
+      LENGTH 2.38819425334285
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.002548 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B91B5F4A-40B4-4145-94CB-BD001E10FF53}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 20.5336091709219
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EC74DB10-7A56-451E-AA7C-E4400EC9CE9E}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 25.61969689013931
+      SNAPOFFS 0
+      LENGTH 4.57560565408439
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.002548 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F6E570B9-CF1B-4A5A-A3E9-332C7AC54A9A}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 22.92180342426474
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {ED8D7E8F-C554-47C5-B98B-496E9DC9A54F}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 30.1953025442237
+      SNAPOFFS 0
+      LENGTH 13.74408212646015
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {305F7BD4-36C3-44B5-BE08-2B9516534C02}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 27.49740907834913
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {86DF1C80-F923-4C26-A080-0FD639277ABE}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 43.93938467068385
+      SNAPOFFS 0
+      LENGTH 18.35165814064641
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5AC7A727-1984-4B4F-8099-29121B20ABD8}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 41.24149120480928
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7CAC6824-00E5-40F2-A562-4A716320F4C7}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 62.29104281133026
+      SNAPOFFS 0
+      LENGTH 2.27636116759617
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.007105 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {82B4237F-3C67-4174-8F37-142BCF8CD84A}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 59.59314934545569
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F061CAC5-E066-458F-B554-914AC31061DC}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 64.56740397892644
+      SNAPOFFS 0
+      LENGTH 9.06522551050783
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.007105 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {6FFA425C-421A-4722-BA72-C1D3AD39C953}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 61.86951051305186
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E137DD8E-3DC7-4DF4-AD85-959C89FE6C5E}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 73.63262948943427
+      SNAPOFFS 0
+      LENGTH 9.06522551050783
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {81830CBE-4CE6-47D7-A950-150CC2670F8E}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 70.93473602355968
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {35C201AA-EDAE-4166-A51F-EC58B0C1299C}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 82.69785499994209
+      SNAPOFFS 0
+      LENGTH 2.24127876035831
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B2C0B30D-1D07-45F2-8270-8C7136433ECA}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 79.99996153406751
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DB7A89E9-670F-4A55-94CE-E7A56E6705B6}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 84.93913376030041
+      SNAPOFFS 0
+      LENGTH 9.12260204879593
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {4CF703E2-4E51-4A1F-B460-1121A796AE96}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 82.24124029442582
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {CA11578E-C508-44C2-BB98-21ACB95B1317}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 94.06173580909633
+      SNAPOFFS 0
+      LENGTH 9.13264853095259
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {6393AB3A-8A4D-4513-AA9B-9CB3BF117756}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 91.36384234322175
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C08A51BA-9547-4817-B84E-E4A72A63E8AB}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 103.19438434004893
+      SNAPOFFS 0
+      LENGTH 4.60044121511879
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {4F17C454-EE65-4671-B889-90CD915E932D}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 100.49649087417434
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {843D62CA-8C2C-4988-A954-20F81145926F}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 107.79482555516772
+      SNAPOFFS 0
+      LENGTH 9.13539586660819
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C7A0455E-3372-4A26-89E4-65F6B8EDBD33}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 105.09693208929313
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {80D50307-BA28-4912-AB71-61A7A63456D2}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 116.93022142177591
+      SNAPOFFS 0
+      LENGTH 4.57749181354207
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {20D5DC32-9923-40C2-BDCF-42C8F1B503BD}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 114.23232795590133
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6DCBA418-1F7F-429E-BE35-F6C75E6683F4}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 121.50771323531798
+      SNAPOFFS 0
+      LENGTH 2.24255708331727
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {AEE2981F-0FBF-408E-967E-4646143A4953}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 118.80981976944339
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {96795A59-3773-4CBA-B2BE-987087BD539E}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 123.75027031863524
+      SNAPOFFS 0
+      LENGTH 4.56335118817222
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.002548 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {11EA7F68-8DE4-4810-AC12-A425B1D29805}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 121.05237685276066
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9CB45185-B9C5-4E21-B95F-33809E810F41}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 128.31362150680746
+      SNAPOFFS 0
+      LENGTH 9.08979874674662
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.002548 0 1 0 0 0
+      FADEOUT 1 0.002548 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {6840F7A6-F85D-4321-B161-EDA0DFDD3187}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 125.61572804093288
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D119577C-1D06-42E2-9F81-01DB6FED63F7}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 137.40342025355409
+      SNAPOFFS 0
+      LENGTH 4.49128132593032
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.002548 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {865B8C37-CCD1-4926-96C2-74C6E68756C2}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 134.7055267876795
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E8C12612-9902-4820-87D3-04A66CDA0F6A}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 141.8947015794844
+      SNAPOFFS 0
+      LENGTH 4.54944374394799
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {58D99E3C-D7F4-495B-859A-CE53028E557F}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 139.19680811360982
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1553678C-708D-4EB9-BFB6-67FE7105BD59}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 146.44414532343239
+      SNAPOFFS 0
+      LENGTH 13.57387437116628
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C4CDD212-07BF-4EEC-9CBE-E365EAE66F32}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 143.74625185755781
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {668A2971-7580-475A-BA6E-E5723C8FC823}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 160.01801969459868
+      SNAPOFFS 0
+      LENGTH 2.24605682669167
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5CDC0DF7-5776-414C-A65A-21C7F9C1887C}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 157.32012622872409
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E82FA5F3-8B5F-43B2-98AA-1ADA4F3127B4}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 162.26407652129035
+      SNAPOFFS 0
+      LENGTH 4.47122707791885
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {37BEF5E5-5384-4E42-A832-B8C94783773E}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 159.56618305541576
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5A696759-2738-4126-90CA-BD629B96666C}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 166.7353035992092
+      SNAPOFFS 0
+      LENGTH 2.24975095451458
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E3DDAFF1-5D10-4495-AC78-D92CA45608F8}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 164.03741013333462
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EA6B5E7A-380F-49E1-9ADC-ACE2DB9A7EC6}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 168.98505455372378
+      SNAPOFFS 0
+      LENGTH 4.49711856147681
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.00181 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E2681B94-1F88-4026-8420-E3155ECC4F73}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 166.2871610878492
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BDFB0B16-647B-496E-87A4-3C49CC05D09B}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 173.4821731152006
+      SNAPOFFS 0
+      LENGTH 2.21452188734114
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.00181 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9342E9C0-09A1-4CA9-9FD5-139CD47F67C9}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 170.78427964932601
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7E3EA138-F119-48EF-8B3B-6388B336D777}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 175.69669500254173
+      SNAPOFFS 0
+      LENGTH 4.45035973504167
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {657D1092-0E4E-4BFE-9A1D-0D0DEDB8D7AB}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 172.99880153666714
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {66F93755-8264-41CB-B477-107A1F40F491}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 180.1470547375834
+      SNAPOFFS 0
+      LENGTH 2.22203383435854
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.00181 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {6B2BED75-4202-4F03-92E4-6924D936171C}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 177.44916127170882
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {26660945-0661-4990-99ED-15F1D550B7B3}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 182.36908857194194
+      SNAPOFFS 0
+      LENGTH 4.93914592023779
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.00181 0 1 0 0 0
+      FADEOUT 1 0.00181 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {DE64A82B-00DC-4559-8FA9-6055A436D6FD}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 179.67119510606736
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4DB141EC-B832-4207-A224-098CCA66A0E8}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 187.30823449217974
+      SNAPOFFS 0
+      LENGTH 4.9627592082187
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.00181 0 1 0 0 0
+      FADEOUT 1 0.005048 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {6FB3BC11-4D5A-4623-A3A5-EF1723149C77}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 184.61034102630515
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0816B798-D93D-4688-BCB9-9AD5832C4BB9}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 192.27099370039844
+      SNAPOFFS 0
+      LENGTH 4.92375898296575
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.005048 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {71580C5A-3CB2-4541-9FAC-73174748A31D}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 189.57310023452385
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {72183B4D-EF3D-4E24-A0ED-AB8A47381138}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 197.19475268336419
+      SNAPOFFS 0
+      LENGTH 4.93721654814107
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.002548 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9FE8B71F-B03D-4942-9D12-88A87E10C827}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 194.4968592174896
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5447BE0E-6660-4F55-85F0-E2C29E4492A9}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 202.13196923150525
+      SNAPOFFS 0
+      LENGTH 4.93721654814107
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.002548 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5AB11AFB-1913-4BD0-9742-8280E5DD089A}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 199.43407576563067
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3447453E-6099-4829-9995-8EC1CADD46D5}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 207.06918577964632
+      SNAPOFFS 0
+      LENGTH 4.95503934755968
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E961CC23-EE4A-4C00-8EE8-48759DCFE544}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 204.37129231377173
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A413AD6D-37B5-4D90-975B-FBA739975E9A}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 212.02422512720599
+      SNAPOFFS 0
+      LENGTH 13.60470862581366
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.003586 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0BFD4BC8-CCA2-4C3E-BF84-BDA8105972DA}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 209.32633166133141
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D1C5ED19-08F9-4460-B5C1-D9F3376E3457}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 225.62893375301965
+      SNAPOFFS 0
+      LENGTH 2.22451058802361
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.003586 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {745D9493-18AF-49AF-89E9-B4F3DA3AC274}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 222.93104028714507
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {617622AB-0B94-4A8C-9268-B40A6A2BF004}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 227.85344434104326
+      SNAPOFFS 0
+      LENGTH 4.54217016473305
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.005048 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0450C9B1-3F74-4BA1-A287-775A87EDA1F9}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 225.15555087516867
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1CC767CB-35A2-4F90-B77E-007A8B3CA87C}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 232.39561450577631
+      SNAPOFFS 0
+      LENGTH 9.03450369220431
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.005048 0 1 0 0 0
+      FADEOUT 1 0.007105 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {7D3AFA78-4779-4813-B232-7E40D4EFBB72}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 229.69772103990172
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {39568C5E-D860-4090-88E0-CA5AE5FB3D73}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 241.43011819798062
+      SNAPOFFS 0
+      LENGTH 4.43670467005938
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.007105 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C103A701-CA06-4018-B096-E0D55117426F}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 238.73222473210603
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {47CB027F-A1EB-4962-BD9F-06FD84436B02}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 245.86682286804
+      SNAPOFFS 0
+      LENGTH 4.48505038689851
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.005048 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {DEBB7DE0-C2EE-4AED-942D-73B0A2F71464}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 243.16892940216542
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7F974DE8-934F-437A-BE7D-D0C605604A14}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 250.35187325493851
+      SNAPOFFS 0
+      LENGTH 13.42843674288744
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.005048 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {940E7086-9E19-497F-937C-50BC26A547F5}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 247.65397978906392
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B1F7B1A0-0D65-485C-BFD3-E7FD978F40A8}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 263.78030999782595
+      SNAPOFFS 0
+      LENGTH 2.2380727904889
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {AE1640BC-0DD8-46D3-828C-AE8197B237DD}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 261.08241653195137
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {097ABC95-7B7F-4C3C-A3FB-27C6F2AB5312}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 266.01838278831485
+      SNAPOFFS 0
+      LENGTH 4.45708067715134
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {6578BF83-8790-4F2D-8F2D-905AD903BC51}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 263.32048932244027
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {66B94B20-837D-48F5-BF50-E91CF7345FF5}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 270.47546346546619
+      SNAPOFFS 0
+      LENGTH 2.25204277625443
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {BC2D7C9E-4ADF-46AE-BCEF-29039DEBA3DB}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 267.77756999959161
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5C79EA6E-8FB9-4723-89A8-44E6B887EF08}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 272.72750624172062
+      SNAPOFFS 0
+      LENGTH 4.4957029561794
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {EBF220B4-A186-4761-A658-BA4F7128772D}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 270.02961277584603
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {427099AE-2BC5-46AF-8861-1EF0D3191BB7}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 277.22320919790002
+      SNAPOFFS 0
+      LENGTH 2.11041082990511
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {FB5940B8-12B1-41A1-9AEF-88FB8F8C4143}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 274.52531573202543
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2F639608-4BD7-4E18-B445-5338C579C9D0}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 279.33362002780513
+      SNAPOFFS 0
+      LENGTH 4.39029083034819
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A2B0F362-7364-4A90-8946-BBA74514686F}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 276.63572656193054
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1E283759-690E-4AAE-A505-D1B6736D2FCE}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 283.72391085815332
+      SNAPOFFS 0
+      LENGTH 2.20709431296103
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.003586 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {07ABA0C9-E519-482D-B1BD-69076133C1ED}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 281.02601739227873
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {CF8AA282-0A3B-4714-A1BC-6D411656282B}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 285.93100517111435
+      SNAPOFFS 0
+      LENGTH 4.42725663896022
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.003586 0 1 0 0 0
+      FADEOUT 1 0.002548 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {736FC4D1-319E-4FD2-ADF0-CA63FE9D11C9}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 283.23311170523976
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {FF19414B-ABBF-4530-A73D-C1EE2716AFA0}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 290.35826181007457
+      SNAPOFFS 0
+      LENGTH 2.19659137140087
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.002548 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B587B35F-7C29-4916-9D6E-9AA8AABA6BE8}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 287.66036834419998
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {721D202E-D387-4051-90D6-CE79D367DBCA}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 292.55485318147544
+      SNAPOFFS 0
+      LENGTH 4.39816777405065
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9C5B2E7C-7BA8-4128-BBF9-FD6A5CAB4350}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 289.85695971560085
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0BF7BDEF-30F2-4ACC-915A-9ACA6DDDB65F}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 296.95302095552609
+      SNAPOFFS 0
+      LENGTH 2.18185454479539
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.003586 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5AFD5DF6-8028-4F04-B319-8638010E9466}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 294.2551274896515
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E5326572-0567-49F0-895D-78664BFC7AAB}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 299.13487550032147
+      SNAPOFFS 0
+      LENGTH 4.41132355231167
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.003586 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0E804709-3345-4DBA-902E-2618F8D714B2}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 296.43698203444688
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {40509C40-A592-4D44-9937-5733EDE78832}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 303.54619905263314
+      SNAPOFFS 0
+      LENGTH 2.20124433025677
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.003586 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {21699236-E7E0-4B4B-B6C7-1083B65BF281}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 300.84830558675856
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B64891E1-10EB-477A-8530-DDDA5FF10AC8}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 305.74744338288991
+      SNAPOFFS 0
+      LENGTH 4.40248866051354
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.003586 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A9AC1ECD-BAEA-496F-A726-3491C78389DC}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 303.04954991701533
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4721DD3F-727B-444A-B17B-3255A1E25B72}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 310.14993204340345
+      SNAPOFFS 0
+      LENGTH 2.20124433025677
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {8BE74217-EFF5-4BF9-83A2-831D7B8C7799}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 307.45203857752887
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {768D52E2-5CF2-4C17-98A8-2C3418FDE30A}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 312.35117637366022
+      SNAPOFFS 0
+      LENGTH 5.06184986476785
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {301A3A56-D3D6-4BB5-9C47-24BEDC68DA25}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 309.65328290778564
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DBFA874F-AFB7-4B90-86FF-A3D528CA4237}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 317.41302623842807
+      SNAPOFFS 0
+      LENGTH 25.83152147565008
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {644424BF-A74D-4988-85B1-C66F82972FC6}
+      IID 1
+      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 314.71513277255349
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EBE092CE-8338-43C6-8D4B-6F1C05328766}
+      <SOURCE MP3
+        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
       >
     >
   >
