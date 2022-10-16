@@ -3426,7 +3426,7 @@
       CHANMODE 0
       GUID {B599D6C9-2592-4B32-A7FC-06E1D3BC9BEA}
       <SOURCE MP3
-        FILE "bhs-drumless.mp3" 1
+        FILE "audio-in\bhs-drumless.mp3" 1
       >
     >
     <ITEM
