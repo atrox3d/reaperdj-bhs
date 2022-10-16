@@ -133,7 +133,7 @@
       CHANMODE 0
       GUID {9DE13693-1ED1-4FBD-AD89-FA20C6331765}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
   >

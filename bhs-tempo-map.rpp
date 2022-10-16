@@ -196,7 +196,7 @@
       CHANMODE 0
       GUID {9DE13693-1ED1-4FBD-AD89-FA20C6331765}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -218,7 +218,7 @@
       CHANMODE 0
       GUID {A47F494F-0A0E-4BF0-B5F3-7D931D9BF321}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -240,7 +240,7 @@
       CHANMODE 0
       GUID {6E878ED8-B064-4408-BA78-2318AD4669A3}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -262,7 +262,7 @@
       CHANMODE 0
       GUID {210FFED0-707B-45D4-A25A-ADE09E4456B6}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -284,7 +284,7 @@
       CHANMODE 0
       GUID {1E43A0D8-E3DD-4F81-96D1-E33271CE9960}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -306,7 +306,7 @@
       CHANMODE 0
       GUID {8FF4CD10-66FE-4BB8-857E-D92EE26F2BB9}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -328,7 +328,7 @@
       CHANMODE 0
       GUID {E3F09030-39F0-4526-8D6B-8F0D2DB31CF0}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -350,7 +350,7 @@
       CHANMODE 0
       GUID {1A71165E-F4C5-4B41-857B-68B769E8EF41}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -372,7 +372,7 @@
       CHANMODE 0
       GUID {3FFEEABE-DF3A-4719-BA07-2EDE971F6B46}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -394,7 +394,7 @@
       CHANMODE 0
       GUID {16EE9A38-4D33-4F25-8961-E29E55F8B9C5}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -416,7 +416,7 @@
       CHANMODE 0
       GUID {6353965D-FAE9-40B6-8821-B6388F2289B4}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -438,7 +438,7 @@
       CHANMODE 0
       GUID {8B9C1029-08A8-42C9-8A45-773CBE7BE67F}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -460,7 +460,7 @@
       CHANMODE 0
       GUID {933CF1A8-6D02-438D-9C6B-25B60C66F1EE}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -482,7 +482,7 @@
       CHANMODE 0
       GUID {216A249A-F734-4A04-BB9A-C7A9381FF4B4}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -504,7 +504,7 @@
       CHANMODE 0
       GUID {F56707D0-0630-49A6-9F5A-2387F1E6E5F7}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -526,7 +526,7 @@
       CHANMODE 0
       GUID {0889219B-1640-4168-AB59-95D8F79BCD74}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -548,7 +548,7 @@
       CHANMODE 0
       GUID {31C05B58-D4DF-472F-915E-4F4A89D790A6}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -570,7 +570,7 @@
       CHANMODE 0
       GUID {F7E57F9C-EA13-48C2-9619-93AAFE37328D}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -592,7 +592,7 @@
       CHANMODE 0
       GUID {035AF340-EE63-4AC8-8DF0-6DA174C2D28D}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -614,7 +614,7 @@
       CHANMODE 0
       GUID {DE22172F-8A39-4233-81E0-D35E462CD60D}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -636,7 +636,7 @@
       CHANMODE 0
       GUID {F78083AD-F000-4D27-8746-26A48A4570F1}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -658,7 +658,7 @@
       CHANMODE 0
       GUID {962CF087-3924-4FC2-A4B2-205AB35D4B49}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -680,7 +680,7 @@
       CHANMODE 0
       GUID {C67E70F4-4F69-4402-A7A0-8C14D5B06A06}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -702,7 +702,7 @@
       CHANMODE 0
       GUID {10F5EB40-E5C1-4E11-8053-CA642CDB6EBB}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -724,7 +724,7 @@
       CHANMODE 0
       GUID {00C5EEC8-34E7-4385-8410-445ABAEC5643}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -746,7 +746,7 @@
       CHANMODE 0
       GUID {8E80D901-7958-4A07-B280-3F324BC131EB}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -768,7 +768,7 @@
       CHANMODE 0
       GUID {4406DE2F-4BCC-4F2A-86F9-AD0B11110D11}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -790,7 +790,7 @@
       CHANMODE 0
       GUID {350E7D62-68EB-4704-9E43-D78377782EDC}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -812,7 +812,7 @@
       CHANMODE 0
       GUID {C5066D71-D6D2-4E8D-97CF-E0DEC4DC2278}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -834,7 +834,7 @@
       CHANMODE 0
       GUID {2B3BC94C-5A52-4505-8C4A-790A895E85A1}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -856,7 +856,7 @@
       CHANMODE 0
       GUID {FADBDED9-C0B4-4A9C-BE97-41660DB408AD}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -878,7 +878,7 @@
       CHANMODE 0
       GUID {2F5A5837-A1AF-4B17-A883-3DBEB0FF2A1E}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -900,7 +900,7 @@
       CHANMODE 0
       GUID {48AB05B5-C130-46FD-B791-79E505A5010D}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -922,7 +922,7 @@
       CHANMODE 0
       GUID {4F4E3D1C-D510-4069-B943-FEE8CF39F0BF}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -944,7 +944,7 @@
       CHANMODE 0
       GUID {BB8DB246-6677-48A8-BDC2-D5E9D8D240AF}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -966,7 +966,7 @@
       CHANMODE 0
       GUID {03EE7DA0-5180-41F7-853D-4AEB9FB66E4A}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -988,7 +988,7 @@
       CHANMODE 0
       GUID {0CBB167C-64D2-451A-BABD-80E7C30E85FB}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -1010,7 +1010,7 @@
       CHANMODE 0
       GUID {54D7A378-3291-45F7-9F1D-1D27CF66968F}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -1032,7 +1032,7 @@
       CHANMODE 0
       GUID {8D428C8F-B503-49A5-BABD-49537347DF19}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -1054,7 +1054,7 @@
       CHANMODE 0
       GUID {5422D084-3B2B-4E72-ACB0-44D22C3828A0}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -1076,7 +1076,7 @@
       CHANMODE 0
       GUID {BE19DF92-EF33-40C1-AE5D-6EAD04925D06}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -1098,7 +1098,7 @@
       CHANMODE 0
       GUID {586A1CC9-7042-42AD-91C2-E2882E306C2A}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -1120,7 +1120,7 @@
       CHANMODE 0
       GUID {14EFA1DA-2BDF-45E9-87F3-18F19D5EAFAF}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -1142,7 +1142,7 @@
       CHANMODE 0
       GUID {EB166279-4303-400F-A905-7E94CF48CD4A}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -1164,7 +1164,7 @@
       CHANMODE 0
       GUID {A956E120-2599-40B7-8A1B-4407D0932836}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -1186,7 +1186,7 @@
       CHANMODE 0
       GUID {0B86D882-87B1-4531-B294-5DCFA266B12D}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -1208,7 +1208,7 @@
       CHANMODE 0
       GUID {8A0DA0C7-C152-477A-8325-DC168563D7E3}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -1230,7 +1230,7 @@
       CHANMODE 0
       GUID {A72CFF50-D227-41E7-B670-8152E6C7E2C9}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -1252,7 +1252,7 @@
       CHANMODE 0
       GUID {E97A5582-58EB-4BFD-BB50-9EA53D1E0553}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -1274,7 +1274,7 @@
       CHANMODE 0
       GUID {26B87BF7-1596-4A52-A4B7-69B3540845E6}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -1296,7 +1296,7 @@
       CHANMODE 0
       GUID {31214E0F-DD10-4098-AC63-299840BB2A76}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -1318,7 +1318,7 @@
       CHANMODE 0
       GUID {EF5B66FD-5E9A-4D34-B631-B3F5B639DAAA}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -1340,7 +1340,7 @@
       CHANMODE 0
       GUID {6695D0EE-B369-4FA8-93B2-CE84BFD08ECE}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -1362,7 +1362,7 @@
       CHANMODE 0
       GUID {4B6E9D37-47FA-47DF-9186-EB7F9CC495EC}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -1384,7 +1384,7 @@
       CHANMODE 0
       GUID {F919625D-C418-4ED2-B70C-DF4CB6CC1886}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -1406,7 +1406,7 @@
       CHANMODE 0
       GUID {51BAC297-8357-4087-B755-84D8C1496655}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -1428,7 +1428,7 @@
       CHANMODE 0
       GUID {A9762A90-8D68-4E8A-99EE-C75B0445CE3E}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -1450,7 +1450,7 @@
       CHANMODE 0
       GUID {2611B317-C812-498B-85E9-B61E500F49A1}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -1472,7 +1472,7 @@
       CHANMODE 0
       GUID {CE548B8E-8A09-4053-B579-073795C8C524}
       <SOURCE MP3
-        FILE "bhs-drums-only.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
   >
