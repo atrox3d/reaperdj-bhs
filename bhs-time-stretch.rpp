@@ -126,14 +126,14 @@
       SEL 1
       IGUID {3ED7FB5F-6FA1-4094-BF96-FC8F0448744A}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME "bhs-drums-only.mp3"
       VOLPAN 1 0 1 -1
       SOFFS 0.56007828448476
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {9DE13693-1ED1-4FBD-AD89-FA20C6331765}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "bhs-drums-only.mp3" 1
       >
     >
   >
