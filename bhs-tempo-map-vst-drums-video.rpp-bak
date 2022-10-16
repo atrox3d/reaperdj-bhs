@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "6.68/win64" 1665821182
+<REAPER_PROJECT 0.1 "6.68/win64" 1665931491
   <NOTES 0 2
   >
   RIPPLE 0
@@ -16,13 +16,13 @@
   TIMEMODE 1 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 307.68168761746898
-  ZOOM 48.90975155925543 14762 0
-  VZOOMEX 9 99
+  CURSOR 231.96104935534029
+  ZOOM 18.77992766034791 4040 0
+  VZOOMEX 3 57
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
-  LOOP 0
+  LOOP 1
   LOOPGRAN 0 4
   RECORD_PATH "" ""
   <RECORD_CFG
@@ -60,8 +60,8 @@
   GLOBAL_AUTO -1
   TEMPO 120 4 4
   PLAYRATE 1 1 0.25 4
-  SELECTION 0 0
-  SELECTION2 0 0
+  SELECTION 229.9847516726694 232.24337759572182
+  SELECTION2 229.9847516726694 232.24337759572182
   MASTERAUTOMODE 0
   MASTERTRACKHEIGHT 0 0
   MASTERPEAKCOL 16576
@@ -168,7 +168,7 @@
   MARKER 5 57.621554055137 "2/4 Fill" 1 0 1 R {8CEC9B23-E8CD-40BA-9994-1AF40CBBCB13}
   MARKER 5 59.897915222733 "" 1 0 1 R
   MARKER 5 59.897915222733 Chorus 0 0 1 R {4E2283F7-C719-4620-9ABF-2B2AE63FDC82}
-  MARKER 6 59.897915222733 "Chorus1 2x2" 1 16777471 1 R {35283EF8-D469-46B0-84C4-687E67ED9BD8}
+  MARKER 6 59.897915222733 "Chorus1 2" 1 16777471 1 R {35283EF8-D469-46B0-84C4-687E67ED9BD8}
   MARKER 6 78.02836624374899 "" 1 16777471 1 R
   MARKER 6 78.02836624374899 "2/4 Pause" 0 0 1 R {4515495B-7699-4A7C-AC71-3DD3D4C1A80E}
   MARKER 7 78.02836624374899 "2/4 Pause" 1 0 1 R {E104C7C7-230E-45F6-BDFE-F2C719357231}
@@ -264,14 +264,14 @@
       SEL 0
       IGUID {B7B96EC2-8D5D-42CF-9D9D-048260099F5B}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 1.97159529031844
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {50A1F995-CEA9-4C6F-ABA7-7D697397B0A7}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -287,14 +287,14 @@
       SEL 0
       IGUID {64220453-CD34-41E6-8BCE-D768CB6A1F02}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 6.63461697457098
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {A47F494F-0A0E-4BF0-B5F3-7D931D9BF321}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -310,14 +310,14 @@
       SEL 0
       IGUID {02257BDC-A3A6-49C2-8B05-9C2952DD317A}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 22.92180342426474
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {1E43A0D8-E3DD-4F81-96D1-E33271CE9960}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -333,14 +333,14 @@
       SEL 0
       IGUID {845DF649-EA50-4517-B141-BCA1B49AF9AF}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 27.49740907834913
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {8FF4CD10-66FE-4BB8-857E-D92EE26F2BB9}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -356,14 +356,14 @@
       SEL 0
       IGUID {4E5BF98E-6551-482A-9AD2-4845EBF614C9}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 41.24149120480928
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {E3F09030-39F0-4526-8D6B-8F0D2DB31CF0}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -378,14 +378,14 @@
       SEL 0
       IGUID {3EFCDF4A-C42C-4D5A-BCC0-254CD49C94A7}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 59.59314934545542
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {3FFEEABE-DF3A-4719-BA07-2EDE971F6B46}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -401,14 +401,14 @@
       SEL 0
       IGUID {A2E0C201-6673-40DD-A2DD-F5556519F954}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 61.86951051305142
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {D58CA46A-FBAB-451E-9CBD-AA6612467C07}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -424,14 +424,14 @@
       SEL 0
       IGUID {4DD44A89-11CA-431E-9CD5-20279565E9B3}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 70.93473602355968
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {16EE9A38-4D33-4F25-8961-E29E55F8B9C5}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -446,14 +446,14 @@
       SEL 0
       IGUID {89421619-87AA-49F1-B92A-53C1E83FABE1}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 79.99996153406751
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {6353965D-FAE9-40B6-8821-B6388F2289B4}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -469,14 +469,14 @@
       SEL 0
       IGUID {B67EE8D3-C0D8-4E0E-A428-FEF34EA99271}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 82.24124029442582
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {8B9C1029-08A8-42C9-8A45-773CBE7BE67F}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -492,14 +492,14 @@
       SEL 0
       IGUID {A12CC6E9-6318-4C42-9631-1E49BA037AEB}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 91.36384234322175
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {933CF1A8-6D02-438D-9C6B-25B60C66F1EE}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -515,14 +515,14 @@
       SEL 0
       IGUID {64F0E45E-D98C-4845-AAFD-E1D960B48052}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 100.49649087417434
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {216A249A-F734-4A04-BB9A-C7A9381FF4B4}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -538,14 +538,14 @@
       SEL 0
       IGUID {5BA7EE0B-B9D1-484F-847A-6409F5962971}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 105.09693208929313
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {F56707D0-0630-49A6-9F5A-2387F1E6E5F7}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -561,14 +561,14 @@
       SEL 0
       IGUID {E239FD34-BD9D-458E-BA98-3B2B01AA5330}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 114.23232795590133
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {0889219B-1640-4168-AB59-95D8F79BCD74}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -583,14 +583,14 @@
       SEL 0
       IGUID {03393291-AA3E-4063-AE4D-F41829E51BD7}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 118.80981976944339
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {31C05B58-D4DF-472F-915E-4F4A89D790A6}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -606,14 +606,14 @@
       SEL 0
       IGUID {1FB83098-32E5-433D-91FE-7D8B5C0CB33E}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 121.05237685276066
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {F7E57F9C-EA13-48C2-9619-93AAFE37328D}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -629,14 +629,14 @@
       SEL 0
       IGUID {1B7DDE72-BCFA-4B17-AF3E-67440F6359D5}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 125.61572804093288
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {035AF340-EE63-4AC8-8DF0-6DA174C2D28D}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -652,14 +652,14 @@
       SEL 0
       IGUID {0C32A8C9-B1A1-4C6E-A559-9679C43BF52B}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 134.7055267876795
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {DE22172F-8A39-4233-81E0-D35E462CD60D}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -675,14 +675,14 @@
       SEL 0
       IGUID {E4FC52B8-0518-438E-B179-1C055B90B999}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 139.19680811360982
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {F78083AD-F000-4D27-8746-26A48A4570F1}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -698,14 +698,14 @@
       SEL 0
       IGUID {09D42645-FE54-4386-A1EA-22F810D91999}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 143.74625185755781
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {962CF087-3924-4FC2-A4B2-205AB35D4B49}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -721,14 +721,14 @@
       SEL 0
       IGUID {8BE68332-20C7-4AB2-B65B-EBFD1E69539E}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 157.32012622872409
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {C67E70F4-4F69-4402-A7A0-8C14D5B06A06}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -744,7 +744,7 @@
       SEL 0
       IGUID {6A0EAB66-5198-46BA-8F5D-7FEED7B190A3}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 159.56618305541576
       PLAYRATE 1 1 0 -1 0 0.0025
@@ -752,7 +752,7 @@
       TAKECOLOR 33521664 R
       GUID {10F5EB40-E5C1-4E11-8053-CA642CDB6EBB}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -768,14 +768,14 @@
       SEL 0
       IGUID {875FAA64-F4AE-4E1F-8568-E243621355CF}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 164.03741013333462
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {00C5EEC8-34E7-4385-8410-445ABAEC5643}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -791,14 +791,14 @@
       SEL 0
       IGUID {4AC6FA6C-C094-454E-972B-C72BC9E4FFC0}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 166.2871610878492
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {8E80D901-7958-4A07-B280-3F324BC131EB}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -814,14 +814,14 @@
       SEL 0
       IGUID {3EBBF298-E2D6-4359-AB62-6ECE6BC3A73F}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 170.78427964932601
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {4406DE2F-4BCC-4F2A-86F9-AD0B11110D11}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -837,14 +837,14 @@
       SEL 0
       IGUID {A61F08BE-E765-4B14-8C4C-3B076352B8B7}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 172.99880153666714
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {350E7D62-68EB-4704-9E43-D78377782EDC}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -859,14 +859,14 @@
       SEL 0
       IGUID {805DD372-0952-4761-8C20-E56986860314}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 177.44916127170882
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {C5066D71-D6D2-4E8D-97CF-E0DEC4DC2278}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -882,14 +882,14 @@
       SEL 0
       IGUID {36EBB8EA-2760-4AA2-8DAC-54F9824BD603}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 179.67119510606736
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {2B3BC94C-5A52-4505-8C4A-790A895E85A1}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -905,14 +905,14 @@
       SEL 0
       IGUID {79AC38F7-62BB-4A84-A20B-46E3B9918337}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 184.61034102630515
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {FADBDED9-C0B4-4A9C-BE97-41660DB408AD}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -928,14 +928,14 @@
       SEL 0
       IGUID {1682FA65-9257-45AE-B17D-2AAC48C84484}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 189.57310023452385
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {2F5A5837-A1AF-4B17-A883-3DBEB0FF2A1E}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -951,14 +951,14 @@
       SEL 0
       IGUID {25C2CDCE-8967-4BEA-98FE-13A7E04491AA}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 194.4968592174896
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {48AB05B5-C130-46FD-B791-79E505A5010D}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -974,14 +974,14 @@
       SEL 0
       IGUID {6C478763-FED8-43D1-B839-9C63B97DCC0C}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 199.43407576563067
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {4F4E3D1C-D510-4069-B943-FEE8CF39F0BF}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -997,14 +997,14 @@
       SEL 0
       IGUID {5FD8BA73-3D1F-4E3B-9FBC-8689D59276D6}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 204.37129231377173
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {BB8DB246-6677-48A8-BDC2-D5E9D8D240AF}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -1019,14 +1019,14 @@
       SEL 0
       IGUID {51CA9868-15A4-4FDD-933F-E696769EC3C4}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 209.32633166133141
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {03EE7DA0-5180-41F7-853D-4AEB9FB66E4A}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -1041,14 +1041,14 @@
       SEL 0
       IGUID {BCA0118E-5F91-4D6A-9604-B33BEE0196C0}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 222.93104028714507
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {0CBB167C-64D2-451A-BABD-80E7C30E85FB}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -1064,14 +1064,14 @@
       SEL 0
       IGUID {AE526A75-9451-4208-B485-16A644A95DFF}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 225.15555087516867
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {54D7A378-3291-45F7-9F1D-1D27CF66968F}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -1087,14 +1087,14 @@
       SEL 0
       IGUID {7B4DEEDF-4BE1-4840-94B2-F2110DAB1A2C}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 229.69772103990172
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {8D428C8F-B503-49A5-BABD-49537347DF19}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -1110,14 +1110,14 @@
       SEL 0
       IGUID {C5ABBDF4-7400-403F-9F38-FA66714D467F}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 238.73222473210603
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {5422D084-3B2B-4E72-ACB0-44D22C3828A0}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -1133,14 +1133,14 @@
       SEL 0
       IGUID {34E39344-3464-4AA7-A738-FF1C0210221A}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 243.16892940216542
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {BE19DF92-EF33-40C1-AE5D-6EAD04925D06}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -1156,14 +1156,14 @@
       SEL 0
       IGUID {2B3941EC-C846-4BE9-906A-16BA0AD9D12B}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 247.65397978906392
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {586A1CC9-7042-42AD-91C2-E2882E306C2A}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -1179,14 +1179,14 @@
       SEL 0
       IGUID {1B005CD1-5ADD-4CB6-B037-5D4ACD9B9E41}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 261.08241653195137
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {14EFA1DA-2BDF-45E9-87F3-18F19D5EAFAF}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -1202,14 +1202,14 @@
       SEL 0
       IGUID {94BDCFF3-47C7-4BF8-A64F-621C4A88260C}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 263.32048932244027
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {EB166279-4303-400F-A905-7E94CF48CD4A}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -1225,14 +1225,14 @@
       SEL 0
       IGUID {53536C30-5E9A-46BC-8FB5-1532CC164594}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 267.77756999959161
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {A956E120-2599-40B7-8A1B-4407D0932836}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -1248,14 +1248,14 @@
       SEL 0
       IGUID {F738D33C-5CF4-41F8-A2B0-4812E8EAC164}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 270.02961277584603
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {0B86D882-87B1-4531-B294-5DCFA266B12D}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -1271,14 +1271,14 @@
       SEL 0
       IGUID {CC03E378-0A56-4D9E-A465-90E4CE1F0057}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 274.52531573202543
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {8A0DA0C7-C152-477A-8325-DC168563D7E3}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -1294,14 +1294,14 @@
       SEL 0
       IGUID {994B4138-76F3-49C5-BE0F-A8AECD6DA4F9}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 276.63572656193054
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {A72CFF50-D227-41E7-B670-8152E6C7E2C9}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -1317,14 +1317,14 @@
       SEL 0
       IGUID {A65818D5-E82C-4E78-852F-00C8B9090B14}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 281.02601739227873
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {E97A5582-58EB-4BFD-BB50-9EA53D1E0553}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -1340,14 +1340,14 @@
       SEL 0
       IGUID {275401B8-0F1F-4645-85E3-5E3DF61E0B7A}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 283.23311170523976
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {26B87BF7-1596-4A52-A4B7-69B3540845E6}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -1363,14 +1363,14 @@
       SEL 0
       IGUID {9EA1082A-5DDD-4D9D-B485-F4B387478508}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 287.66036834419998
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {31214E0F-DD10-4098-AC63-299840BB2A76}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -1386,14 +1386,14 @@
       SEL 0
       IGUID {F3F1859B-7D24-43E4-9604-FDDCDB0487E5}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 289.85695971560085
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {EF5B66FD-5E9A-4D34-B631-B3F5B639DAAA}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -1409,14 +1409,14 @@
       SEL 0
       IGUID {CEBC3FE5-ECAC-488C-99DD-1394DA63707A}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 294.2551274896515
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {6695D0EE-B369-4FA8-93B2-CE84BFD08ECE}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -1432,14 +1432,14 @@
       SEL 0
       IGUID {AF3E01AA-D461-4D3D-8F77-9408EFB2B6DA}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 296.43698203444688
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {4B6E9D37-47FA-47DF-9186-EB7F9CC495EC}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -1455,14 +1455,14 @@
       SEL 0
       IGUID {37991439-59BF-463E-A1A8-89D9A793DD14}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 300.84830558675856
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {F919625D-C418-4ED2-B70C-DF4CB6CC1886}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -1478,14 +1478,14 @@
       SEL 0
       IGUID {F2B6A758-A23B-4872-8EB6-980FD1E8BA4B}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 303.04954991701533
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {51BAC297-8357-4087-B755-84D8C1496655}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -1500,14 +1500,14 @@
       SEL 0
       IGUID {EECA67BA-3359-4C70-AD9D-325381C474FF}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 307.45203857752887
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {A9762A90-8D68-4E8A-99EE-C75B0445CE3E}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -1523,14 +1523,14 @@
       SEL 0
       IGUID {B0AA82CD-429B-4A9D-9D89-F7FB24DE5D59}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 309.65328290778564
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {2611B317-C812-498B-85E9-B61E500F49A1}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
     <ITEM
@@ -1545,14 +1545,14 @@
       SEL 0
       IGUID {2CAD9AAA-2DBE-4FBC-8334-5786DBCD4C6B}
       IID 1
-      NAME "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3"
+      NAME bhs-drums-only.mp3
       VOLPAN 1 0 1 -1
       SOFFS 314.71513277255349
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {CE548B8E-8A09-4053-B579-073795C8C524}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun-drums only-Isolated drum track.mp3" 1
+        FILE "audio-in\bhs-drums-only.mp3" 1
       >
     >
   >
@@ -1562,13 +1562,13 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 2 0
+    MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
-    SEL 0
+    SEL 1
     REC 1 5088 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -1611,8 +1611,8 @@
     >
     MAINSEND 1 0
     <FXCHAIN
-      WNDRECT 1403 507 1159 695
-      SHOW 1
+      WNDRECT 0 0 1159 695
+      SHOW 0
       LASTSEL 0
       DOCKED 0
       BYPASS 0 0 0
@@ -1636,7 +1636,7 @@
     <ITEM
       POSITION 0
       SNAPOFFS 0
-      LENGTH 338.05278680608819
+      LENGTH 59.897915222719
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
@@ -1655,6 +1655,1314 @@
         HASDATA 1 960 QN
         CCINTERP 32
         POOLEDEVTS {381D54A0-53FA-4A39-B908-EF7C4DF5AE95}
+        E 0 90 41 71
+        E 120 80 41 00
+        E 840 90 41 71
+        E 120 80 41 00
+        E 840 90 41 71
+        E 120 80 41 00
+        E 840 90 41 71
+        E 120 80 41 00
+        E 840 90 41 71
+        E 0 90 33 71
+        E 120 80 41 00
+        E 0 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 41 71
+        E 120 80 41 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 360 90 41 71
+        E 0 90 33 71
+        E 120 80 41 00
+        E 0 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 41 71
+        E 120 80 41 00
+        E 840 90 41 71
+        E 0 90 33 71
+        E 120 80 41 00
+        E 0 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 41 71
+        E 120 80 41 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 360 90 41 71
+        E 0 90 33 71
+        E 120 80 41 00
+        E 0 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 41 71
+        E 120 80 41 00
+        E 840 90 41 71
+        E 0 90 33 71
+        E 120 80 41 00
+        E 0 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 41 71
+        E 120 80 41 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 360 90 41 71
+        E 0 90 33 71
+        E 120 80 41 00
+        E 0 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 41 71
+        E 120 80 41 00
+        E 840 90 41 71
+        E 120 80 41 00
+        E 840 90 41 71
+        E 120 80 41 00
+        E 120 90 24 71
+        E 120 80 24 00
+        E 120 90 26 71
+        E 0 90 2b 71
+        E 120 80 26 00
+        E 0 80 2b 00
+        E 360 90 24 71
+        E 0 90 39 71
+        E 120 80 24 00
+        E 0 80 39 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 24 71
+        E 120 80 3e 00
+        E 0 80 24 00
+        E 120 90 3e 71
+        E 0 90 26 71
+        E 120 80 3e 00
+        E 0 80 26 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 24 71
+        E 0 90 3e 71
+        E 120 80 24 00
+        E 0 80 3e 00
+        E 120 90 24 71
+        E 0 90 3c 71
+        E 120 80 24 00
+        E 0 80 3c 00
+        E 120 90 3d 71
+        E 120 80 3d 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 26 71
+        E 120 80 3e 00
+        E 0 80 26 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 24 71
+        E 0 90 3e 71
+        E 120 80 24 00
+        E 0 80 3e 00
+        E 120 90 24 71
+        E 0 90 3c 71
+        E 120 80 24 00
+        E 0 80 3c 00
+        E 120 90 3d 71
+        E 120 80 3d 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 26 71
+        E 120 80 3e 00
+        E 0 80 26 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 24 71
+        E 0 90 3e 71
+        E 120 80 24 00
+        E 0 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 24 71
+        E 0 90 3e 71
+        E 120 80 24 00
+        E 0 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 26 71
+        E 120 80 3e 00
+        E 0 80 26 00
+        E 120 90 3e 71
+        E 0 90 24 71
+        E 120 80 3e 00
+        E 0 80 24 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 24 71
+        E 120 80 3e 00
+        E 0 80 24 00
+        E 120 90 24 71
+        E 0 90 3c 71
+        E 120 80 24 00
+        E 0 80 3c 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 26 71
+        E 120 80 3e 00
+        E 0 80 26 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 24 71
+        E 120 80 3e 00
+        E 0 80 24 00
+        E 120 90 3c 71
+        E 0 90 24 71
+        E 120 80 3c 00
+        E 0 80 24 00
+        E 120 90 3d 71
+        E 120 80 3d 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 26 71
+        E 120 80 3e 00
+        E 0 80 26 00
+        E 120 90 3e 71
+        E 0 90 24 71
+        E 120 80 3e 00
+        E 0 80 24 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 24 71
+        E 120 80 3e 00
+        E 0 80 24 00
+        E 120 90 3c 71
+        E 0 90 24 71
+        E 120 80 3c 00
+        E 0 80 24 00
+        E 120 90 3d 71
+        E 120 80 3d 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 26 71
+        E 0 90 3e 71
+        E 120 80 26 00
+        E 0 80 3e 00
+        E 120 90 24 71
+        E 0 90 3e 71
+        E 120 80 24 00
+        E 0 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 24 71
+        E 0 90 3e 71
+        E 120 80 24 00
+        E 0 80 3e 00
+        E 120 90 24 71
+        E 0 90 3e 71
+        E 0 90 39 71
+        E 0 90 31 71
+        E 120 80 24 00
+        E 0 80 3e 00
+        E 0 80 39 00
+        E 0 80 31 00
+        E 360 90 41 71
+        E 120 80 41 00
+        E 360 90 41 71
+        E 120 80 41 00
+        E 120 90 24 71
+        E 120 80 24 00
+        E 120 90 41 71
+        E 0 90 26 71
+        E 0 90 29 71
+        E 120 80 41 00
+        E 0 80 26 00
+        E 0 80 29 00
+        E 360 90 24 71
+        E 0 90 39 71
+        E 120 80 24 00
+        E 0 80 39 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 26 71
+        E 120 80 3e 00
+        E 0 80 26 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 24 71
+        E 0 90 3c 71
+        E 120 80 24 00
+        E 0 80 3c 00
+        E 120 90 3d 71
+        E 120 80 3d 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 26 71
+        E 120 80 3e 00
+        E 0 80 26 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 24 71
+        E 0 90 3c 71
+        E 120 80 24 00
+        E 0 80 3c 00
+        E 120 90 3d 71
+        E 120 80 3d 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 26 71
+        E 120 80 3e 00
+        E 0 80 26 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 24 71
+        E 0 90 3e 71
+        E 120 80 24 00
+        E 0 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 24 71
+        E 0 90 3e 71
+        E 120 80 24 00
+        E 0 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 26 71
+        E 120 80 3e 00
+        E 0 80 26 00
+        E 120 90 3e 71
+        E 0 90 24 71
+        E 120 80 3e 00
+        E 0 80 24 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 24 71
+        E 120 80 3e 00
+        E 0 80 24 00
+        E 120 90 24 71
+        E 0 90 3c 71
+        E 120 80 24 00
+        E 0 80 3c 00
+        E 120 90 3d 71
+        E 120 80 3d 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 26 71
+        E 120 80 3e 00
+        E 0 80 26 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 24 71
+        E 120 80 3e 00
+        E 0 80 24 00
+        E 120 90 3c 71
+        E 0 90 24 71
+        E 120 80 3c 00
+        E 0 80 24 00
+        E 120 90 3d 71
+        E 120 80 3d 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 26 71
+        E 120 80 3e 00
+        E 0 80 26 00
+        E 120 90 3e 71
+        E 0 90 24 71
+        E 120 80 3e 00
+        E 0 80 24 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 24 71
+        E 120 80 3e 00
+        E 0 80 24 00
+        E 120 90 3c 71
+        E 0 90 24 71
+        E 120 80 3c 00
+        E 0 80 24 00
+        E 120 90 3d 71
+        E 120 80 3d 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 24 71
+        E 120 80 3e 00
+        E 0 80 24 00
+        E 120 90 26 71
+        E 0 90 3e 71
+        E 120 80 26 00
+        E 0 80 3e 00
+        E 120 90 24 71
+        E 0 90 3e 71
+        E 120 80 24 00
+        E 0 80 3e 00
+        E 120 90 3e 71
+        E 0 90 24 71
+        E 120 80 3e 00
+        E 0 80 24 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 24 71
+        E 0 90 3e 71
+        E 0 90 39 71
+        E 0 90 31 71
+        E 120 80 24 00
+        E 0 80 3e 00
+        E 0 80 39 00
+        E 0 80 31 00
+        E 120 90 24 71
+        E 120 80 24 00
+        E 120 90 41 71
+        E 0 90 26 71
+        E 0 90 39 71
+        E 120 80 41 00
+        E 0 80 26 00
+        E 0 80 39 00
+        E 360 90 41 71
+        E 120 80 41 00
+        E 360 90 41 71
+        E 120 80 41 00
+        E 360 90 41 71
+        E 0 90 26 71
+        E 120 80 41 00
+        E 0 80 26 00
+        E 120 90 24 71
+        E 120 80 24 00
+        E 120 90 41 71
+        E 0 90 30 71
+        E 0 90 2d 71
+        E 120 80 41 00
+        E 0 80 30 00
+        E 0 80 2d 00
+        E 360 90 41 71
+        E 0 90 29 71
+        E 0 90 2b 71
+        E 0 90 2d 71
+        E 120 80 41 00
+        E 0 80 29 00
+        E 0 80 2b 00
+        E 0 80 2d 00
+        E 120 90 29 71
+        E 0 90 2b 71
+        E 0 90 2d 71
+        E 120 80 29 00
+        E 0 80 2b 00
+        E 0 80 2d 00
+        E 120 90 41 71
+        E 120 80 41 00
+        E 360 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {007E2309-28B4-4FC6-AF4B-32F9970564BE}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 2
+        VELLANE -1 36 0
+        CFGEDITVIEW 136323.842659 0.20395 76 14 0 -1 70 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 65545 1 1 1 1 1 0.0625 22 102 1270 1005 1 3 0 2 0 0 0 0 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 59.897915222719
+      SNAPOFFS 0
+      LENGTH 18.13045102101901
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {4D441E12-3DD7-497D-BCAB-853CED7EE3AA}
+      IID 61
+      NAME "MT-PowerDrumKit untitled MIDI item"
+      VOLPAN 1 0 1 -1
+      SOFFS 59.897915222719 52.00000000000075
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {69BFAE25-C86D-441A-B7BA-7FAC666BDB94}
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {A8697755-1565-4282-948A-DE38430D033B}
+        E 0 90 41 71
+        E 120 80 41 00
+        E 840 90 41 71
+        E 120 80 41 00
+        E 840 90 41 71
+        E 120 80 41 00
+        E 840 90 41 71
+        E 120 80 41 00
+        E 840 90 41 71
+        E 0 90 33 71
+        E 120 80 41 00
+        E 0 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 41 71
+        E 120 80 41 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 360 90 41 71
+        E 0 90 33 71
+        E 120 80 41 00
+        E 0 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 41 71
+        E 120 80 41 00
+        E 840 90 41 71
+        E 0 90 33 71
+        E 120 80 41 00
+        E 0 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 41 71
+        E 120 80 41 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 360 90 41 71
+        E 0 90 33 71
+        E 120 80 41 00
+        E 0 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 41 71
+        E 120 80 41 00
+        E 840 90 41 71
+        E 0 90 33 71
+        E 120 80 41 00
+        E 0 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 41 71
+        E 120 80 41 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 360 90 41 71
+        E 0 90 33 71
+        E 120 80 41 00
+        E 0 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 41 71
+        E 120 80 41 00
+        E 840 90 41 71
+        E 120 80 41 00
+        E 840 90 41 71
+        E 120 80 41 00
+        E 120 90 24 71
+        E 120 80 24 00
+        E 120 90 26 71
+        E 0 90 2b 71
+        E 120 80 26 00
+        E 0 80 2b 00
+        E 360 90 24 71
+        E 0 90 39 71
+        E 120 80 24 00
+        E 0 80 39 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 24 71
+        E 120 80 3e 00
+        E 0 80 24 00
+        E 120 90 3e 71
+        E 0 90 26 71
+        E 120 80 3e 00
+        E 0 80 26 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 24 71
+        E 0 90 3e 71
+        E 120 80 24 00
+        E 0 80 3e 00
+        E 120 90 24 71
+        E 0 90 3c 71
+        E 120 80 24 00
+        E 0 80 3c 00
+        E 120 90 3d 71
+        E 120 80 3d 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 26 71
+        E 120 80 3e 00
+        E 0 80 26 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 24 71
+        E 0 90 3e 71
+        E 120 80 24 00
+        E 0 80 3e 00
+        E 120 90 24 71
+        E 0 90 3c 71
+        E 120 80 24 00
+        E 0 80 3c 00
+        E 120 90 3d 71
+        E 120 80 3d 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 26 71
+        E 120 80 3e 00
+        E 0 80 26 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 24 71
+        E 0 90 3e 71
+        E 120 80 24 00
+        E 0 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 24 71
+        E 0 90 3e 71
+        E 120 80 24 00
+        E 0 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 26 71
+        E 120 80 3e 00
+        E 0 80 26 00
+        E 120 90 3e 71
+        E 0 90 24 71
+        E 120 80 3e 00
+        E 0 80 24 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 24 71
+        E 120 80 3e 00
+        E 0 80 24 00
+        E 120 90 24 71
+        E 0 90 3c 71
+        E 120 80 24 00
+        E 0 80 3c 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 26 71
+        E 120 80 3e 00
+        E 0 80 26 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 24 71
+        E 120 80 3e 00
+        E 0 80 24 00
+        E 120 90 3c 71
+        E 0 90 24 71
+        E 120 80 3c 00
+        E 0 80 24 00
+        E 120 90 3d 71
+        E 120 80 3d 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 26 71
+        E 120 80 3e 00
+        E 0 80 26 00
+        E 120 90 3e 71
+        E 0 90 24 71
+        E 120 80 3e 00
+        E 0 80 24 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 24 71
+        E 120 80 3e 00
+        E 0 80 24 00
+        E 120 90 3c 71
+        E 0 90 24 71
+        E 120 80 3c 00
+        E 0 80 24 00
+        E 120 90 3d 71
+        E 120 80 3d 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 26 71
+        E 0 90 3e 71
+        E 120 80 26 00
+        E 0 80 3e 00
+        E 120 90 24 71
+        E 0 90 3e 71
+        E 120 80 24 00
+        E 0 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 24 71
+        E 0 90 3e 71
+        E 120 80 24 00
+        E 0 80 3e 00
+        E 120 90 24 71
+        E 0 90 3e 71
+        E 0 90 39 71
+        E 0 90 31 71
+        E 120 80 24 00
+        E 0 80 3e 00
+        E 0 80 39 00
+        E 0 80 31 00
+        E 360 90 41 71
+        E 120 80 41 00
+        E 360 90 41 71
+        E 120 80 41 00
+        E 120 90 24 71
+        E 120 80 24 00
+        E 120 90 41 71
+        E 0 90 26 71
+        E 0 90 29 71
+        E 120 80 41 00
+        E 0 80 26 00
+        E 0 80 29 00
+        E 360 90 24 71
+        E 0 90 39 71
+        E 120 80 24 00
+        E 0 80 39 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 26 71
+        E 120 80 3e 00
+        E 0 80 26 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 24 71
+        E 0 90 3c 71
+        E 120 80 24 00
+        E 0 80 3c 00
+        E 120 90 3d 71
+        E 120 80 3d 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 26 71
+        E 120 80 3e 00
+        E 0 80 26 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 24 71
+        E 0 90 3c 71
+        E 120 80 24 00
+        E 0 80 3c 00
+        E 120 90 3d 71
+        E 120 80 3d 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 26 71
+        E 120 80 3e 00
+        E 0 80 26 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 24 71
+        E 0 90 3e 71
+        E 120 80 24 00
+        E 0 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 24 71
+        E 0 90 3e 71
+        E 120 80 24 00
+        E 0 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 26 71
+        E 120 80 3e 00
+        E 0 80 26 00
+        E 120 90 3e 71
+        E 0 90 24 71
+        E 120 80 3e 00
+        E 0 80 24 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 24 71
+        E 120 80 3e 00
+        E 0 80 24 00
+        E 120 90 24 71
+        E 0 90 3c 71
+        E 120 80 24 00
+        E 0 80 3c 00
+        E 120 90 3d 71
+        E 120 80 3d 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 26 71
+        E 120 80 3e 00
+        E 0 80 26 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 24 71
+        E 120 80 3e 00
+        E 0 80 24 00
+        E 120 90 3c 71
+        E 0 90 24 71
+        E 120 80 3c 00
+        E 0 80 24 00
+        E 120 90 3d 71
+        E 120 80 3d 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 26 71
+        E 120 80 3e 00
+        E 0 80 26 00
+        E 120 90 3e 71
+        E 0 90 24 71
+        E 120 80 3e 00
+        E 0 80 24 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 24 71
+        E 120 80 3e 00
+        E 0 80 24 00
+        E 120 90 3c 71
+        E 0 90 24 71
+        E 120 80 3c 00
+        E 0 80 24 00
+        E 120 90 3d 71
+        E 120 80 3d 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 24 71
+        E 120 80 3e 00
+        E 0 80 24 00
+        E 120 90 26 71
+        E 0 90 3e 71
+        E 120 80 26 00
+        E 0 80 3e 00
+        E 120 90 24 71
+        E 0 90 3e 71
+        E 120 80 24 00
+        E 0 80 3e 00
+        E 120 90 3e 71
+        E 0 90 24 71
+        E 120 80 3e 00
+        E 0 80 24 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 24 71
+        E 0 90 3e 71
+        E 0 90 39 71
+        E 0 90 31 71
+        E 120 80 24 00
+        E 0 80 3e 00
+        E 0 80 39 00
+        E 0 80 31 00
+        E 120 90 24 71
+        E 120 80 24 00
+        E 120 90 41 71
+        E 0 90 26 71
+        E 0 90 39 71
+        E 120 80 41 00
+        E 0 80 26 00
+        E 0 80 39 00
+        E 360 90 41 71
+        E 120 80 41 00
+        E 360 90 41 71
+        E 120 80 41 00
+        E 360 90 41 71
+        E 0 90 26 71
+        E 120 80 41 00
+        E 0 80 26 00
+        E 120 90 24 71
+        E 120 80 24 00
+        E 120 90 41 71
+        E 0 90 30 71
+        E 0 90 2d 71
+        E 120 80 41 00
+        E 0 80 30 00
+        E 0 80 2d 00
+        E 360 90 41 71
+        E 0 90 29 71
+        E 0 90 2b 71
+        E 0 90 2d 71
+        E 120 80 41 00
+        E 0 80 29 00
+        E 0 80 2b 00
+        E 0 80 2d 00
+        E 120 90 29 71
+        E 0 90 2b 71
+        E 0 90 2d 71
+        E 120 80 29 00
+        E 0 80 2b 00
+        E 0 80 2d 00
+        E 120 90 41 71
+        E 120 80 41 00
+        E 360 90 41 71
+        E 0 90 39 60
+        E 0 90 31 60
+        E 0 90 24 60
+        E 120 80 41 00
+        E 0 80 39 00
+        E 0 80 31 00
+        E 0 80 24 00
+        E 120 90 33 60
+        E 120 80 33 00
+        E 120 90 41 71
+        E 0 90 33 60
+        E 120 80 41 00
+        E 0 80 33 00
+        E 120 90 33 60
+        E 0 90 24 60
+        E 120 80 33 00
+        E 0 80 24 00
+        E 120 90 41 71
+        E 0 90 33 60
+        E 0 90 26 60
+        E 120 80 41 00
+        E 0 80 33 00
+        E 0 80 26 00
+        E 120 90 33 60
+        E 120 80 33 00
+        E 120 90 41 71
+        E 0 90 33 60
+        E 120 80 41 00
+        E 0 80 33 00
+        E 120 90 24 71
+        E 0 90 33 60
+        E 120 80 24 00
+        E 0 80 33 00
+        E 120 90 24 71
+        E 0 90 41 71
+        E 0 90 33 60
+        E 120 80 24 00
+        E 0 80 41 00
+        E 0 80 33 00
+        E 120 90 33 60
+        E 120 80 33 00
+        E 120 90 41 71
+        E 0 90 33 60
+        E 0 90 24 71
+        E 120 80 41 00
+        E 0 80 33 00
+        E 0 80 24 00
+        E 120 90 33 60
+        E 120 80 33 00
+        E 120 90 41 71
+        E 0 90 33 60
+        E 0 90 26 71
+        E 120 80 41 00
+        E 0 80 33 00
+        E 0 80 26 00
+        E 120 90 33 60
+        E 0 90 24 60
+        E 0 90 39 60
+        E 120 80 33 00
+        E 0 80 24 00
+        E 0 80 39 00
+        E 120 90 41 71
+        E 0 90 33 60
+        E 120 80 41 00
+        E 0 80 33 00
+        E 120 90 24 71
+        E 120 80 24 00
+        E 120 90 41 71
+        E 0 90 39 60
+        E 0 90 31 60
+        E 0 90 24 71
+        E 120 80 41 00
+        E 0 80 39 00
+        E 0 80 31 00
+        E 0 80 24 00
+        E 120 90 33 60
+        E 120 80 33 00
+        E 120 90 41 71
+        E 0 90 33 60
+        E 120 80 41 00
+        E 0 80 33 00
+        E 120 90 33 60
+        E 0 90 24 71
+        E 120 80 33 00
+        E 0 80 24 00
+        E 120 90 41 71
+        E 0 90 33 60
+        E 0 90 26 71
+        E 0 90 39 71
+        E 120 80 41 00
+        E 0 80 33 00
+        E 0 80 26 00
+        E 0 80 39 00
+        E 120 90 33 60
+        E 120 80 33 00
+        E 120 90 41 71
+        E 0 90 33 60
+        E 120 80 41 00
+        E 0 80 33 00
+        E 120 90 33 60
+        E 0 90 24 71
+        E 120 80 33 00
+        E 0 80 24 00
+        E 120 90 39 60
+        E 0 90 31 60
+        E 0 90 41 71
+        E 0 90 33 60
+        E 0 90 24 71
+        E 120 80 39 00
+        E 0 80 31 00
+        E 0 80 41 00
+        E 0 80 33 00
+        E 0 80 24 00
+        E 360 90 41 71
+        E 0 90 29 60
+        E 120 80 41 00
+        E 0 80 29 00
+        E 0 90 26 60
+        E 120 80 26 00
+        E 0 90 26 60
+        E 120 80 26 00
+        E 120 90 30 60
+        E 0 90 41 71
+        E 120 80 30 00
+        E 0 80 41 00
+        E 120 90 29 60
+        E 120 80 29 00
+        E 120 90 41 71
+        E 0 90 26 60
+        E 120 80 41 00
+        E 0 80 26 00
+        E 120 90 24 60
+        E 120 80 24 00
+        E 120 90 41 71
+        E 0 90 39 60
+        E 0 90 31 60
+        E 0 90 24 60
+        E 120 80 41 00
+        E 0 80 39 00
+        E 0 80 31 00
+        E 0 80 24 00
+        E 120 90 33 60
+        E 120 80 33 00
+        E 120 90 41 71
+        E 0 90 33 60
+        E 120 80 41 00
+        E 0 80 33 00
+        E 120 90 33 60
+        E 0 90 24 60
+        E 120 80 33 00
+        E 0 80 24 00
+        E 120 90 41 71
+        E 0 90 33 60
+        E 0 90 26 60
+        E 120 80 41 00
+        E 0 80 33 00
+        E 0 80 26 00
+        E 120 90 33 60
+        E 0 90 24 71
+        E 120 80 33 00
+        E 0 80 24 00
+        E 120 90 41 71
+        E 0 90 33 60
+        E 0 90 24 71
+        E 120 80 41 00
+        E 0 80 33 00
+        E 0 80 24 00
+        E 120 90 33 60
+        E 120 80 33 00
+        E 120 90 41 71
+        E 0 90 33 60
+        E 0 90 24 71
+        E 0 90 39 71
+        E 120 80 41 00
+        E 0 80 33 00
+        E 0 80 24 00
+        E 0 80 39 00
+        E 120 90 33 60
+        E 0 90 24 71
+        E 120 80 33 00
+        E 0 80 24 00
+        E 120 90 41 71
+        E 0 90 33 60
+        E 120 80 41 00
+        E 0 80 33 00
+        E 120 90 33 60
+        E 0 90 24 71
+        E 120 80 33 00
+        E 0 80 24 00
+        E 0 90 24 71
+        E 60 80 24 00
+        E 60 90 41 71
+        E 0 90 33 60
+        E 0 90 26 71
+        E 120 80 41 00
+        E 0 80 33 00
+        E 0 80 26 00
+        E 120 90 33 60
+        E 0 90 24 60
+        E 60 90 3c 60
+        E 60 80 33 00
+        E 0 80 24 00
+        E 60 80 3c 00
+        E 60 90 41 71
+        E 0 90 33 60
+        E 120 80 41 00
+        E 0 80 33 00
+        E 120 90 24 71
+        E 120 80 24 00
+        E 120 90 41 71
+        E 0 90 39 60
+        E 0 90 31 60
+        E 0 90 24 71
+        E 120 80 41 00
+        E 0 80 39 00
+        E 0 80 31 00
+        E 0 80 24 00
+        E 120 90 33 60
+        E 120 80 33 00
+        E 120 90 41 71
+        E 0 90 33 60
+        E 120 80 41 00
+        E 0 80 33 00
+        E 120 90 33 60
+        E 0 90 24 71
+        E 120 80 33 00
+        E 0 80 24 00
+        E 0 90 24 60
+        E 60 80 24 00
+        E 60 90 31 60
+        E 0 90 41 71
+        E 0 90 26 71
+        E 120 80 31 00
+        E 0 80 41 00
+        E 0 80 26 00
+        E 120 90 30 71
+        E 120 80 30 00
+        E 120 90 41 71
+        E 0 90 2d 71
+        E 120 80 41 00
+        E 0 80 2d 00
+        E 360 90 39 60
+        E 0 90 31 60
+        E 0 90 41 71
+        E 0 90 24 71
+        E 120 80 39 00
+        E 0 80 31 00
+        E 0 80 41 00
+        E 0 80 24 00
+        E 360 90 41 71
+        E 120 80 41 00
+        E 360 90 41 71
+        E 120 80 41 00
+        E 360 90 41 71
+        E 120 80 41 00
+        E 360 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {B410C6CE-122E-4168-A76F-5E4F55C7CED6}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 37
+        VELLANE -1 36 0
+        CFGEDITVIEW 0 0.20395 76 14 0 -1 70 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 65545 1 1 1 1 1 0.0625 22 102 1270 1005 1 3 0 2 0 0 0 0 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 78.02836624373801
+      SNAPOFFS 0
+      LENGTH 77.32016469466998
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {71A930D9-AFE5-4E6B-B4A3-3EEF69F8F85E}
+      IID 61
+      NAME "MT-PowerDrumKit untitled MIDI item"
+      VOLPAN 1 0 1 -1
+      SOFFS 78.02836624373801 68.00000000000114
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0A66D26C-E3D1-4A2F-9037-ECA25DC405F5}
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {DFC02C54-0AB8-41A1-8F89-1C5642CF2344}
         E 0 90 41 71
         E 120 80 41 00
         E 840 90 41 71
@@ -3337,6 +4645,224 @@
         E 0 90 24 72
         E 120 80 33 00
         E 0 80 24 00
+        E 120 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {248CF2B1-7F34-49F7-923B-9BF8AF6100AF}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 38
+        VELLANE -1 36 0
+        CFGEDITVIEW 0 0.20395 76 14 0 -1 70 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 65545 1 1 1 1 1 0.0625 22 102 1270 1005 1 3 0 2 0 0 0 0 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 155.348530938408
+      SNAPOFFS 0
+      LENGTH 65.61091405841898
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C42B2F77-DA9C-4CCA-9815-1927B5FA5B2C}
+      IID 102
+      NAME "MT-PowerDrumKit untitled MIDI item-glued"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E2936D12-9510-40C7-8619-FC70000D0D56}
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {B332BA24-F3DC-4F88-87FB-25363F0F25E4}
+        E 0 90 41 71
+        E 0 90 33 71
+        E 0 90 24 71
+        E 120 80 41 00
+        E 0 80 33 00
+        E 0 80 24 00
+        E 120 90 24 71
+        E 120 80 24 00
+        E 120 90 41 71
+        E 0 90 35 71
+        E 120 80 41 00
+        E 0 80 35 00
+        E 120 90 26 71
+        E 120 80 26 00
+        E 120 90 41 71
+        E 0 90 24 71
+        E 120 80 41 00
+        E 0 80 24 00
+        E 120 90 24 71
+        E 120 80 24 00
+        E 120 90 41 71
+        E 0 90 26 71
+        E 120 80 41 00
+        E 0 80 26 00
+        E 360 90 41 71
+        E 0 90 39 72
+        E 0 90 24 71
+        E 0 90 39 71
+        E 0 90 31 71
+        E 120 80 41 00
+        E 0 80 39 00
+        E 0 80 24 00
+        E 0 80 39 00
+        E 0 80 31 00
+        E 120 90 24 7f
+        E 120 80 24 00
+        E 120 90 35 7f
+        E 120 80 35 00
+        E 120 90 26 7f
+        E 120 80 26 00
+        E 120 90 35 7f
+        E 120 80 35 00
+        E 120 90 24 7f
+        E 120 80 24 00
+        E 120 90 35 7f
+        E 0 90 24 7f
+        E 120 80 35 00
+        E 0 80 24 00
+        E 120 90 30 7f
+        E 120 80 30 00
+        E 120 90 29 7f
+        E 0 90 35 7f
+        E 120 80 29 00
+        E 0 80 35 00
+        E 120 90 39 7f
+        E 0 90 24 7f
+        E 120 80 39 00
+        E 0 80 24 00
+        E 120 90 35 7f
+        E 120 80 35 00
+        E 120 90 30 7f
+        E 120 80 30 00
+        E 120 90 35 7f
+        E 0 90 29 7f
+        E 120 80 35 00
+        E 0 80 29 00
+        E 360 90 35 7f
+        E 0 90 26 7f
+        E 0 90 29 7f
+        E 120 80 35 00
+        E 0 80 26 00
+        E 0 80 29 00
+        E 120 90 24 7f
+        E 120 80 24 00
+        E 120 90 35 7f
+        E 0 90 26 7f
+        E 0 90 29 7f
+        E 120 80 35 00
+        E 0 80 26 00
+        E 0 80 29 00
+        E 120 90 30 7f
+        E 60 90 30 7f
+        E 60 80 30 00
+        E 0 80 30 00
+        E 0 90 30 7f
+        E 60 80 30 00
+        E 0 90 30 7f
+        E 60 80 30 00
+        E 0 90 24 71
+        E 0 90 41 71
+        E 120 80 24 00
+        E 0 80 41 00
+        E 240 90 26 71
+        E 60 80 26 00
+        E 60 90 26 71
+        E 0 90 41 71
+        E 60 80 26 00
+        E 60 80 41 00
+        E 120 90 24 71
+        E 60 80 24 00
+        E 180 90 41 71
+        E 0 90 26 71
+        E 120 80 41 00
+        E 0 80 26 00
+        E 0 90 24 71
+        E 120 80 24 00
+        E 120 90 24 71
+        E 120 80 24 00
+        E 0 90 41 71
+        E 0 90 39 72
+        E 0 90 24 71
+        E 0 90 39 71
+        E 0 90 31 71
+        E 120 80 41 00
+        E 0 80 39 00
+        E 0 80 24 00
+        E 0 80 39 00
+        E 0 80 31 00
+        E 120 90 33 60
+        E 120 80 33 00
+        E 120 90 33 60
+        E 0 90 41 71
+        E 120 80 33 00
+        E 0 80 41 00
+        E 120 90 33 60
+        E 0 90 24 72
+        E 120 80 33 00
+        E 0 80 24 00
+        E 120 90 33 60
+        E 0 90 41 71
+        E 0 90 26 72
+        E 120 80 33 00
+        E 0 80 41 00
+        E 0 80 26 00
+        E 120 90 33 60
+        E 0 90 24 72
+        E 0 90 3c 72
+        E 120 80 33 00
+        E 0 80 24 00
+        E 0 80 3c 00
+        E 120 90 33 60
+        E 0 90 41 71
+        E 120 80 33 00
+        E 0 80 41 00
+        E 120 90 33 60
+        E 120 80 33 00
+        E 120 90 33 60
+        E 0 90 41 71
+        E 0 90 31 6f
+        E 0 90 24 72
+        E 120 80 33 00
+        E 0 80 41 00
+        E 0 80 31 00
+        E 0 80 24 00
+        E 120 90 33 60
+        E 120 80 33 00
+        E 120 90 33 60
+        E 0 90 41 71
+        E 120 80 33 00
+        E 0 80 41 00
+        E 120 90 33 60
+        E 0 90 24 72
+        E 120 80 33 00
+        E 0 80 24 00
+        E 120 90 33 60
+        E 0 90 41 71
+        E 0 90 26 72
+        E 120 80 33 00
+        E 0 80 41 00
+        E 0 80 26 00
+        E 120 90 33 60
+        E 0 90 24 72
+        E 120 80 33 00
+        E 0 80 24 00
+        E 120 90 33 60
+        E 0 90 41 71
+        E 0 90 24 72
+        E 120 80 33 00
+        E 0 80 41 00
+        E 0 80 24 00
+        E 120 90 33 60
+        E 120 80 33 00
         E 120 90 41 71
         E 0 90 24 71
         E 0 90 39 71
@@ -3346,41 +4872,1487 @@
         E 120 90 26 71
         E 120 80 26 00
         E 120 90 41 71
-        E 0 90 24 71
+        E 0 90 26 71
         E 120 80 41 00
-        E 0 80 24 00
-        E 120 90 2d 71
-        E 120 80 2d 00
-        E 120 90 41 71
-        E 0 90 24 71
-        E 120 80 41 00
-        E 0 80 24 00
-        E 120 90 29 71
-        E 120 80 29 00
-        E 120 90 41 71
-        E 0 90 29 71
-        E 120 80 41 00
-        E 0 80 29 00
-        E 120 90 29 71
-        E 120 80 29 00
+        E 0 80 26 00
         E 120 90 24 71
+        E 120 80 24 00
+        E 120 90 41 71
+        E 0 90 26 71
+        E 120 80 41 00
+        E 0 80 26 00
+        E 120 90 24 71
+        E 120 80 24 00
+        E 120 90 29 71
+        E 0 90 41 71
+        E 0 90 30 71
+        E 120 80 29 00
+        E 0 80 41 00
+        E 0 80 30 00
+        E 120 90 24 71
+        E 120 80 24 00
+        E 120 90 41 71
+        E 0 90 39 72
+        E 0 90 24 71
         E 0 90 39 71
         E 0 90 31 71
-        E 120 80 24 00
+        E 120 80 41 00
+        E 0 80 39 00
+        E 0 80 24 00
         E 0 80 39 00
         E 0 80 31 00
-        E 155400 b0 7b 00
+        E 120 90 33 60
+        E 120 80 33 00
+        E 120 90 33 60
+        E 0 90 41 71
+        E 120 80 33 00
+        E 0 80 41 00
+        E 120 90 33 60
+        E 0 90 24 72
+        E 120 80 33 00
+        E 0 80 24 00
+        E 120 90 33 60
+        E 0 90 41 71
+        E 0 90 26 72
+        E 120 80 33 00
+        E 0 80 41 00
+        E 0 80 26 00
+        E 120 90 33 60
+        E 0 90 24 72
+        E 120 80 33 00
+        E 0 80 24 00
+        E 120 90 24 72
+        E 0 90 33 60
+        E 0 90 41 71
+        E 120 80 24 00
+        E 0 80 33 00
+        E 0 80 41 00
+        E 120 90 33 60
+        E 120 80 33 00
+        E 120 90 33 60
+        E 0 90 41 71
+        E 0 90 31 6f
+        E 0 90 24 72
+        E 120 80 33 00
+        E 0 80 41 00
+        E 0 80 31 00
+        E 0 80 24 00
+        E 120 90 33 60
+        E 120 80 33 00
+        E 120 90 33 60
+        E 0 90 41 71
+        E 120 80 33 00
+        E 0 80 41 00
+        E 120 90 33 60
+        E 0 90 24 72
+        E 120 80 33 00
+        E 0 80 24 00
+        E 120 90 33 60
+        E 0 90 41 71
+        E 0 90 26 72
+        E 120 80 33 00
+        E 0 80 41 00
+        E 0 80 26 00
+        E 120 90 33 60
+        E 0 90 24 72
+        E 0 90 31 6f
+        E 120 80 33 00
+        E 0 80 24 00
+        E 0 80 31 00
+        E 120 90 33 60
+        E 0 90 41 71
+        E 120 80 33 00
+        E 0 80 41 00
+        E 120 90 33 60
+        E 0 90 24 72
+        E 120 80 33 00
+        E 0 80 24 00
+        E 120 90 41 71
+        E 0 90 33 71
+        E 0 90 24 71
+        E 120 80 41 00
+        E 0 80 33 00
+        E 0 80 24 00
+        E 120 90 24 71
+        E 120 80 24 00
+        E 120 90 41 71
+        E 0 90 35 71
+        E 120 80 41 00
+        E 0 80 35 00
+        E 120 90 26 71
+        E 120 80 26 00
+        E 120 90 41 71
+        E 0 90 24 71
+        E 120 80 41 00
+        E 0 80 24 00
+        E 120 90 24 71
+        E 120 80 24 00
+        E 120 90 41 71
+        E 0 90 26 71
+        E 120 80 41 00
+        E 0 80 26 00
+        E 360 90 41 71
+        E 0 90 39 72
+        E 0 90 24 71
+        E 0 90 39 71
+        E 0 90 31 71
+        E 120 80 41 00
+        E 0 80 39 00
+        E 0 80 24 00
+        E 0 80 39 00
+        E 0 80 31 00
+        E 120 90 24 7f
+        E 120 80 24 00
+        E 120 90 35 7f
+        E 0 90 41 60
+        E 60 80 41 00
+        E 60 80 35 00
+        E 120 90 26 7f
+        E 120 80 26 00
+        E 120 90 35 7f
+        E 0 90 41 60
+        E 60 80 41 00
+        E 60 80 35 00
+        E 120 90 24 7f
+        E 120 80 24 00
+        E 120 90 35 7f
+        E 0 90 24 7f
+        E 0 90 41 60
+        E 60 80 41 00
+        E 60 80 35 00
+        E 0 80 24 00
+        E 120 90 30 7f
+        E 120 80 30 00
+        E 120 90 29 7f
+        E 0 90 35 7f
+        E 0 90 41 60
+        E 60 80 41 00
+        E 60 80 29 00
+        E 0 80 35 00
+        E 120 90 39 7f
+        E 0 90 24 7f
+        E 120 80 39 00
+        E 0 80 24 00
+        E 120 90 35 7f
+        E 0 90 41 60
+        E 60 80 41 00
+        E 60 80 35 00
+        E 120 90 30 7f
+        E 120 80 30 00
+        E 120 90 35 7f
+        E 0 90 29 7f
+        E 0 90 41 60
+        E 60 80 41 00
+        E 60 80 35 00
+        E 0 80 29 00
+        E 360 90 35 7f
+        E 0 90 26 7f
+        E 0 90 29 7f
+        E 0 90 41 60
+        E 60 80 41 00
+        E 60 80 35 00
+        E 0 80 26 00
+        E 0 80 29 00
+        E 120 90 24 7f
+        E 120 80 24 00
+        E 120 90 35 7f
+        E 0 90 26 7f
+        E 0 90 29 7f
+        E 0 90 41 60
+        E 0 90 41 71
+        E 60 80 41 00
+        E 60 80 35 00
+        E 0 80 26 00
+        E 0 80 29 00
+        E 0 80 41 00
+        E 120 90 30 7f
+        E 60 90 30 7f
+        E 60 80 30 00
+        E 0 80 30 00
+        E 0 90 30 7f
+        E 60 80 30 00
+        E 0 90 30 7f
+        E 60 80 30 00
+        E 0 90 41 60
+        E 14 90 24 71
+        E 0 90 31 71
+        E 0 90 39 71
+        E 0 90 41 71
+        E 46 80 41 00
+        E 60 80 24 00
+        E 0 80 31 00
+        E 0 80 39 00
+        E 0 80 41 00
+        E 120 90 24 7f
+        E 120 80 24 00
+        E 120 90 35 7f
+        E 0 90 41 60
+        E 60 80 41 00
+        E 60 80 35 00
+        E 120 90 26 7f
+        E 120 80 26 00
+        E 120 90 35 7f
+        E 0 90 41 60
+        E 60 80 41 00
+        E 60 80 35 00
+        E 120 90 24 7f
+        E 120 80 24 00
+        E 120 90 35 7f
+        E 0 90 24 7f
+        E 0 90 41 60
+        E 60 80 41 00
+        E 60 80 35 00
+        E 0 80 24 00
+        E 120 90 30 7f
+        E 120 80 30 00
+        E 120 90 29 7f
+        E 0 90 35 7f
+        E 0 90 41 60
+        E 60 80 41 00
+        E 60 80 29 00
+        E 0 80 35 00
+        E 120 90 39 7f
+        E 0 90 24 7f
+        E 120 80 39 00
+        E 0 80 24 00
+        E 120 90 35 7f
+        E 0 90 41 60
+        E 60 80 41 00
+        E 60 80 35 00
+        E 120 90 30 7f
+        E 120 80 30 00
+        E 120 90 35 7f
+        E 0 90 29 7f
+        E 0 90 41 60
+        E 60 80 41 00
+        E 60 80 35 00
+        E 0 80 29 00
+        E 240 90 26 60
+        E 60 80 26 00
+        E 60 90 29 7f
+        E 0 90 30 60
+        E 0 90 41 60
+        E 0 90 41 71
+        E 60 80 41 00
+        E 60 80 29 00
+        E 0 80 30 00
+        E 0 80 41 00
+        E 0 90 30 60
+        E 120 80 30 00
+        E 0 90 30 60
+        E 120 80 30 00
+        E 120 90 29 7f
+        E 0 90 26 60
+        E 0 90 41 60
+        E 60 80 41 00
+        E 60 80 29 00
+        E 0 80 26 00
+        E 0 90 26 60
+        E 120 80 26 00
+        E 0 90 30 60
+        E 120 80 30 00
+        E 120 90 41 71
+        E 0 90 39 72
+        E 0 90 24 71
+        E 0 90 39 71
+        E 0 90 31 71
+        E 0 90 41 60
+        E 60 80 41 00
+        E 60 80 39 00
+        E 0 80 24 00
+        E 0 80 39 00
+        E 0 80 31 00
+        E 0 80 41 00
+        E 120 90 24 7f
+        E 120 80 24 00
+        E 120 90 35 7f
+        E 0 90 41 60
+        E 60 80 41 00
+        E 60 80 35 00
+        E 120 90 26 7f
+        E 120 80 26 00
+        E 120 90 35 7f
+        E 0 90 41 60
+        E 60 80 41 00
+        E 60 80 35 00
+        E 120 90 24 7f
+        E 120 80 24 00
+        E 120 90 35 7f
+        E 0 90 24 7f
+        E 0 90 41 60
+        E 60 80 41 00
+        E 60 80 35 00
+        E 0 80 24 00
+        E 120 90 30 7f
+        E 120 80 30 00
+        E 120 90 29 7f
+        E 0 90 35 7f
+        E 0 90 41 60
+        E 60 80 41 00
+        E 60 80 29 00
+        E 0 80 35 00
+        E 120 90 39 7f
+        E 0 90 24 7f
+        E 120 80 39 00
+        E 0 80 24 00
+        E 120 90 35 7f
+        E 0 90 41 60
+        E 60 80 41 00
+        E 60 80 35 00
+        E 120 90 30 7f
+        E 120 80 30 00
+        E 120 90 35 7f
+        E 0 90 29 7f
+        E 0 90 41 60
+        E 0 90 41 71
+        E 60 80 41 00
+        E 60 80 35 00
+        E 0 80 29 00
+        E 0 80 41 00
+        E 360 90 26 7f
+        E 0 90 29 7f
+        E 0 90 41 60
+        E 60 80 41 00
+        E 60 80 26 00
+        E 0 80 29 00
+        E 0 90 24 60
+        E 120 80 24 00
+        E 0 90 30 60
+        E 120 80 30 00
+        E 120 90 29 7f
+        E 0 90 41 60
+        E 60 80 41 00
+        E 60 80 29 00
+        E 0 90 24 7f
+        E 120 80 24 00
+        E 0 90 29 7f
+        E 120 80 29 00
+        E 120 90 41 71
+        E 0 90 39 72
+        E 0 90 24 71
+        E 0 90 39 71
+        E 0 90 31 71
+        E 0 90 41 60
+        E 60 80 41 00
+        E 60 80 39 00
+        E 0 80 24 00
+        E 0 80 39 00
+        E 0 80 31 00
+        E 0 80 41 00
+        E 120 90 24 7f
+        E 120 80 24 00
+        E 120 90 35 7f
+        E 0 90 41 60
+        E 60 80 41 00
+        E 60 80 35 00
+        E 120 90 26 7f
+        E 120 80 26 00
+        E 120 90 35 7f
+        E 0 90 41 60
+        E 60 80 41 00
+        E 60 80 35 00
+        E 120 90 24 7f
+        E 120 80 24 00
+        E 120 90 35 7f
+        E 0 90 24 7f
+        E 0 90 41 60
+        E 60 80 41 00
+        E 60 80 35 00
+        E 0 80 24 00
+        E 120 90 30 7f
+        E 120 80 30 00
+        E 120 90 29 7f
+        E 0 90 35 7f
+        E 0 90 41 60
+        E 60 80 41 00
+        E 60 80 29 00
+        E 0 80 35 00
+        E 120 90 39 7f
+        E 0 90 24 7f
+        E 120 80 39 00
+        E 0 80 24 00
+        E 120 90 35 7f
+        E 0 90 41 60
+        E 0 90 41 71
+        E 60 80 41 00
+        E 60 80 35 00
+        E 0 80 41 00
+        E 120 90 30 7f
+        E 120 80 30 00
+        E 120 90 35 7f
+        E 0 90 29 7f
+        E 0 90 41 60
+        E 60 80 41 00
+        E 60 80 35 00
+        E 0 80 29 00
+        E 360 90 26 7f
+        E 0 90 41 60
+        E 60 80 41 00
+        E 60 80 26 00
+        E 120 90 24 7f
+        E 0 90 39 7f
+        E 120 80 24 00
+        E 0 80 39 00
+        E 120 90 26 7f
+        E 0 90 41 60
+        E 60 80 41 00
+        E 60 80 26 00
+        E 0 90 26 7f
+        E 120 80 26 00
+        E 0 90 24 7f
+        E 0 90 31 7f
+        E 60 80 24 00
+        E 0 80 31 00
+        E 180 90 41 71
+        E 0 90 39 72
+        E 0 90 24 71
+        E 0 90 39 71
+        E 0 90 31 71
+        E 0 90 41 60
+        E 60 80 41 00
+        E 60 80 39 00
+        E 0 80 24 00
+        E 0 80 39 00
+        E 0 80 31 00
+        E 0 80 41 00
+        E 120 90 24 7f
+        E 120 80 24 00
+        E 120 90 35 7f
+        E 0 90 41 60
+        E 60 80 41 00
+        E 60 80 35 00
+        E 120 90 26 7f
+        E 120 80 26 00
+        E 120 90 35 7f
+        E 0 90 41 60
+        E 60 80 41 00
+        E 60 80 35 00
+        E 120 90 24 7f
+        E 120 80 24 00
+        E 120 90 35 7f
+        E 0 90 24 7f
+        E 0 90 41 60
+        E 60 80 41 00
+        E 60 80 35 00
+        E 0 80 24 00
+        E 120 90 30 7f
+        E 120 80 30 00
+        E 120 90 29 7f
+        E 0 90 35 7f
+        E 0 90 41 60
+        E 0 90 41 71
+        E 60 80 41 00
+        E 60 80 29 00
+        E 0 80 35 00
+        E 0 80 41 00
+        E 120 90 39 7f
+        E 0 90 24 7f
+        E 120 80 39 00
+        E 0 80 24 00
+        E 120 90 35 7f
+        E 0 90 41 60
+        E 60 80 41 00
+        E 60 80 35 00
+        E 120 90 30 7f
+        E 120 80 30 00
+        E 120 90 35 7f
+        E 0 90 29 7f
+        E 0 90 41 60
+        E 60 80 41 00
+        E 60 80 35 00
+        E 0 80 29 00
+        E 240 90 26 7f
+        E 120 80 26 00
+        E 0 90 29 7f
+        E 0 90 30 7f
+        E 0 90 41 60
+        E 60 80 41 00
+        E 60 80 29 00
+        E 0 80 30 00
+        E 0 90 30 7f
+        E 120 80 30 00
+        E 0 90 30 7f
+        E 120 80 30 00
+        E 120 90 35 7f
+        E 0 90 29 7f
+        E 0 90 26 7f
+        E 0 90 41 60
+        E 60 80 41 00
+        E 60 80 35 00
+        E 0 80 29 00
+        E 0 80 26 00
+        E 360 90 41 60
+        E 0 90 41 71
+        E 14 90 24 71
+        E 0 90 31 71
+        E 0 90 39 71
+        E 0 90 41 71
+        E 46 80 41 00
+        E 60 80 41 00
+        E 0 80 24 00
+        E 0 80 31 00
+        E 0 80 39 00
+        E 0 80 41 00
+        E 120 90 24 7f
+        E 120 80 24 00
+        E 120 90 35 7f
+        E 0 90 41 60
+        E 0 90 41 60
+        E 60 80 41 00
+        E 0 80 41 00
+        E 60 80 35 00
+        E 120 90 26 7f
+        E 120 80 26 00
+        E 120 90 35 7f
+        E 0 90 41 60
+        E 0 90 41 60
+        E 60 80 41 00
+        E 0 80 41 00
+        E 60 80 35 00
+        E 120 90 24 7f
+        E 120 80 24 00
+        E 120 90 35 7f
+        E 0 90 24 7f
+        E 0 90 41 60
+        E 0 90 41 60
+        E 60 80 41 00
+        E 0 80 41 00
+        E 60 80 35 00
+        E 0 80 24 00
+        E 120 90 30 7f
+        E 120 80 30 00
+        E 120 90 29 7f
+        E 0 90 35 7f
+        E 0 90 41 60
+        E 60 80 41 00
+        E 60 80 29 00
+        E 0 80 35 00
+        E 120 90 39 7f
+        E 0 90 24 7f
+        E 120 80 39 00
+        E 0 80 24 00
+        E 120 90 35 7f
+        E 0 90 41 60
+        E 60 80 41 00
+        E 60 80 35 00
+        E 120 90 30 7f
+        E 120 80 30 00
+        E 120 90 35 7f
+        E 0 90 29 7f
+        E 0 90 41 60
+        E 60 80 41 00
+        E 60 80 35 00
+        E 0 80 29 00
+        E 360 90 29 7f
+        E 0 90 26 7a
+        E 0 90 41 60
+        E 60 80 41 00
+        E 60 80 29 00
+        E 0 80 26 00
+        E 120 90 24 7a
+        E 120 80 24 00
+        E 120 90 29 7f
+        E 0 90 26 7a
+        E 0 90 41 60
+        E 60 80 41 00
+        E 60 80 29 00
+        E 0 80 26 00
+        E 360 90 41 60
+        E 0 90 24 7f
+        E 0 90 39 7f
+        E 0 90 31 7f
+        E 60 80 41 00
+        E 0 80 24 00
+        E 0 80 39 00
+        E 0 80 31 00
+        E 420 90 24 7f
+        E 0 90 39 7f
+        E 60 80 24 00
+        E 0 80 39 00
+        E 420 90 41 7f
+        E 60 80 41 00
+        E 900 90 41 7f
+        E 60 80 41 00
+        E 900 90 41 7f
+        E 60 80 41 00
+        E 900 90 41 60
+        E 60 80 41 00
+        E 900 90 41 7f
+        E 60 80 41 00
+        E 900 90 41 7f
+        E 60 80 41 00
+        E 900 90 41 7f
+        E 60 80 41 00
+        E 900 90 41 60
+        E 60 80 41 00
+        E 900 90 41 7f
+        E 60 80 41 00
+        E 900 90 41 7f
+        E 60 80 41 00
+        E 900 90 41 7f
+        E 60 80 41 00
+        E 900 b0 7b 00
         CCINTERP 32
         CHASE_CC_TAKEOFFS 1
-        GUID {007E2309-28B4-4FC6-AF4B-32F9970564BE}
+        GUID {BE36FC61-8A7D-4F24-82B9-1E56A260B601}
         IGNTEMPO 0 120 4 4
-        SRCCOLOR 2
-        VELLANE -1 35 0
-        CFGEDITVIEW 129953.980741 0.147277 74 13 0 -1 70 0 0 0.5
+        SRCCOLOR 35
+        VELLANE -1 36 0
+        CFGEDITVIEW 58559.991363 0.125509 71 12 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 0
         EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 0 65545 1 1 1 1 1 0.25 22 102 1270 1005 1 3 0 2 0 0 0 0 0 0.5 0 0 1 64
+        CFGEDIT 1 1 0 1 0 65545 1 1 1 1 1 0.0625 38 118 1270 1005 1 3 0 2 0 0 0 0 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 220.95944499682801
+      SNAPOFFS 0
+      LENGTH 2.224510588025
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {FA10E13A-9FC4-40A6-B131-CCB5039A844A}
+      IID 103
+      NAME "MT-PowerDrumKit untitled MIDI item"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8C59BA99-B4FB-4C12-B259-8CB6353391AC}
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {4EB9294C-87BF-4054-920F-AB0BB2803A69}
+        E 0 90 41 60
+        E 0 90 26 60
+        E 60 80 41 00
+        E 0 80 26 00
+        E 180 90 26 60
+        E 60 80 26 00
+        E 20 90 30 60
+        E 60 80 30 00
+        E 20 90 24 60
+        E 80 80 24 00
+        e 0 90 29 60
+        E 0 90 41 60
+        e 60 80 29 00
+        E 0 80 41 00
+        E 180 90 26 60
+        E 60 80 26 00
+        E 180 90 41 60
+        E 0 90 30 60
+        E 60 80 41 00
+        E 0 80 30 00
+        E 180 90 24 60
+        E 60 80 24 00
+        E 180 90 41 60
+        E 0 90 26 60
+        E 0 90 3c 60
+        E 60 80 41 00
+        E 0 80 26 00
+        E 0 80 3c 00
+        E 420 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {0F13DBB7-02DD-4381-AFB8-913BECE62704}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 36
+        VELLANE -1 36 0
+        CFGEDITVIEW -5046.782224 0.012057 72 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 65545 1 1 1 1 1 0.125 38 118 1270 1005 1 3 0 2 0 0 0 0 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 223.18395558488555
+      SNAPOFFS 0
+      LENGTH 18.01337852700286
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {F093971A-C505-43D5-89EB-A25C1383A6EF}
+      IID 61
+      NAME "MT-PowerDrumKit untitled MIDI item"
+      VOLPAN 1 0 1 -1
+      SOFFS 57.74411014695403 52.00000000000043
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4A84A0D6-7807-4BF7-865E-908B67EADBC8}
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {F6D8BDD8-7C5E-45E8-B493-125653E9C30E}
+        E 0 90 41 71
+        E 120 80 41 00
+        E 840 90 41 71
+        E 120 80 41 00
+        E 840 90 41 71
+        E 120 80 41 00
+        E 840 90 41 71
+        E 120 80 41 00
+        E 840 90 41 71
+        E 0 90 33 71
+        E 120 80 41 00
+        E 0 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 41 71
+        E 120 80 41 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 360 90 41 71
+        E 0 90 33 71
+        E 120 80 41 00
+        E 0 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 41 71
+        E 120 80 41 00
+        E 840 90 41 71
+        E 0 90 33 71
+        E 120 80 41 00
+        E 0 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 41 71
+        E 120 80 41 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 360 90 41 71
+        E 0 90 33 71
+        E 120 80 41 00
+        E 0 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 41 71
+        E 120 80 41 00
+        E 840 90 41 71
+        E 0 90 33 71
+        E 120 80 41 00
+        E 0 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 41 71
+        E 120 80 41 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 360 90 41 71
+        E 0 90 33 71
+        E 120 80 41 00
+        E 0 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 33 71
+        E 120 80 33 00
+        E 120 90 41 71
+        E 120 80 41 00
+        E 840 90 41 71
+        E 120 80 41 00
+        E 840 90 41 71
+        E 120 80 41 00
+        E 120 90 24 71
+        E 120 80 24 00
+        E 120 90 26 71
+        E 0 90 2b 71
+        E 120 80 26 00
+        E 0 80 2b 00
+        E 360 90 24 71
+        E 0 90 39 71
+        E 120 80 24 00
+        E 0 80 39 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 24 71
+        E 120 80 3e 00
+        E 0 80 24 00
+        E 120 90 3e 71
+        E 0 90 26 71
+        E 120 80 3e 00
+        E 0 80 26 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 24 71
+        E 0 90 3e 71
+        E 120 80 24 00
+        E 0 80 3e 00
+        E 120 90 24 71
+        E 0 90 3c 71
+        E 120 80 24 00
+        E 0 80 3c 00
+        E 120 90 3d 71
+        E 120 80 3d 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 26 71
+        E 120 80 3e 00
+        E 0 80 26 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 24 71
+        E 0 90 3e 71
+        E 120 80 24 00
+        E 0 80 3e 00
+        E 120 90 24 71
+        E 0 90 3c 71
+        E 120 80 24 00
+        E 0 80 3c 00
+        E 120 90 3d 71
+        E 120 80 3d 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 26 71
+        E 120 80 3e 00
+        E 0 80 26 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 24 71
+        E 0 90 3e 71
+        E 120 80 24 00
+        E 0 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 24 71
+        E 0 90 3e 71
+        E 120 80 24 00
+        E 0 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 26 71
+        E 120 80 3e 00
+        E 0 80 26 00
+        E 120 90 3e 71
+        E 0 90 24 71
+        E 120 80 3e 00
+        E 0 80 24 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 24 71
+        E 120 80 3e 00
+        E 0 80 24 00
+        E 120 90 24 71
+        E 0 90 3c 71
+        E 120 80 24 00
+        E 0 80 3c 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 26 71
+        E 120 80 3e 00
+        E 0 80 26 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 24 71
+        E 120 80 3e 00
+        E 0 80 24 00
+        E 120 90 3c 71
+        E 0 90 24 71
+        E 120 80 3c 00
+        E 0 80 24 00
+        E 120 90 3d 71
+        E 120 80 3d 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 26 71
+        E 120 80 3e 00
+        E 0 80 26 00
+        E 120 90 3e 71
+        E 0 90 24 71
+        E 120 80 3e 00
+        E 0 80 24 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 24 71
+        E 120 80 3e 00
+        E 0 80 24 00
+        E 120 90 3c 71
+        E 0 90 24 71
+        E 120 80 3c 00
+        E 0 80 24 00
+        E 120 90 3d 71
+        E 120 80 3d 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 26 71
+        E 0 90 3e 71
+        E 120 80 26 00
+        E 0 80 3e 00
+        E 120 90 24 71
+        E 0 90 3e 71
+        E 120 80 24 00
+        E 0 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 24 71
+        E 0 90 3e 71
+        E 120 80 24 00
+        E 0 80 3e 00
+        E 120 90 24 71
+        E 0 90 3e 71
+        E 0 90 39 71
+        E 0 90 31 71
+        E 120 80 24 00
+        E 0 80 3e 00
+        E 0 80 39 00
+        E 0 80 31 00
+        E 360 90 41 71
+        E 120 80 41 00
+        E 360 90 41 71
+        E 120 80 41 00
+        E 120 90 24 71
+        E 120 80 24 00
+        E 120 90 41 71
+        E 0 90 26 71
+        E 0 90 29 71
+        E 120 80 41 00
+        E 0 80 26 00
+        E 0 80 29 00
+        E 360 90 24 71
+        E 0 90 39 71
+        E 120 80 24 00
+        E 0 80 39 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 26 71
+        E 120 80 3e 00
+        E 0 80 26 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 24 71
+        E 0 90 3c 71
+        E 120 80 24 00
+        E 0 80 3c 00
+        E 120 90 3d 71
+        E 120 80 3d 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 26 71
+        E 120 80 3e 00
+        E 0 80 26 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 24 71
+        E 0 90 3c 71
+        E 120 80 24 00
+        E 0 80 3c 00
+        E 120 90 3d 71
+        E 120 80 3d 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 26 71
+        E 120 80 3e 00
+        E 0 80 26 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 24 71
+        E 0 90 3e 71
+        E 120 80 24 00
+        E 0 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 24 71
+        E 0 90 3e 71
+        E 120 80 24 00
+        E 0 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 26 71
+        E 120 80 3e 00
+        E 0 80 26 00
+        E 120 90 3e 71
+        E 0 90 24 71
+        E 120 80 3e 00
+        E 0 80 24 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 24 71
+        E 120 80 3e 00
+        E 0 80 24 00
+        E 120 90 24 71
+        E 0 90 3c 71
+        E 120 80 24 00
+        E 0 80 3c 00
+        E 120 90 3d 71
+        E 120 80 3d 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 26 71
+        E 120 80 3e 00
+        E 0 80 26 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 24 71
+        E 120 80 3e 00
+        E 0 80 24 00
+        E 120 90 3c 71
+        E 0 90 24 71
+        E 120 80 3c 00
+        E 0 80 24 00
+        E 120 90 3d 71
+        E 120 80 3d 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 26 71
+        E 120 80 3e 00
+        E 0 80 26 00
+        E 120 90 3e 71
+        E 0 90 24 71
+        E 120 80 3e 00
+        E 0 80 24 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 24 71
+        E 120 80 3e 00
+        E 0 80 24 00
+        E 120 90 3c 71
+        E 0 90 24 71
+        E 120 80 3c 00
+        E 0 80 24 00
+        E 120 90 3d 71
+        E 120 80 3d 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 3e 71
+        E 0 90 24 71
+        E 120 80 3e 00
+        E 0 80 24 00
+        E 120 90 26 71
+        E 0 90 3e 71
+        E 120 80 26 00
+        E 0 80 3e 00
+        E 120 90 24 71
+        E 0 90 3e 71
+        E 120 80 24 00
+        E 0 80 3e 00
+        E 120 90 3e 71
+        E 0 90 24 71
+        E 120 80 3e 00
+        E 0 80 24 00
+        E 120 90 3e 71
+        E 120 80 3e 00
+        E 120 90 24 71
+        E 0 90 3e 71
+        E 0 90 39 71
+        E 0 90 31 71
+        E 120 80 24 00
+        E 0 80 3e 00
+        E 0 80 39 00
+        E 0 80 31 00
+        E 120 90 24 71
+        E 120 80 24 00
+        E 120 90 41 71
+        E 0 90 26 71
+        E 0 90 39 71
+        E 120 80 41 00
+        E 0 80 26 00
+        E 0 80 39 00
+        E 360 90 41 71
+        E 120 80 41 00
+        E 360 90 41 71
+        E 120 80 41 00
+        E 360 90 41 71
+        E 0 90 26 71
+        E 120 80 41 00
+        E 0 80 26 00
+        E 120 90 24 71
+        E 120 80 24 00
+        E 120 90 41 71
+        E 0 90 30 71
+        E 0 90 2d 71
+        E 120 80 41 00
+        E 0 80 30 00
+        E 0 80 2d 00
+        E 360 90 41 71
+        E 0 90 29 71
+        E 0 90 2b 71
+        E 0 90 2d 71
+        E 120 80 41 00
+        E 0 80 29 00
+        E 0 80 2b 00
+        E 0 80 2d 00
+        E 120 90 29 71
+        E 0 90 2b 71
+        E 0 90 2d 71
+        E 120 80 29 00
+        E 0 80 2b 00
+        E 0 80 2d 00
+        E 120 90 41 71
+        E 120 80 41 00
+        E 360 90 41 71
+        E 0 90 39 60
+        E 0 90 31 60
+        E 0 90 24 60
+        E 120 80 41 00
+        E 0 80 39 00
+        E 0 80 31 00
+        E 0 80 24 00
+        E 120 90 33 60
+        E 120 80 33 00
+        E 120 90 41 71
+        E 0 90 33 60
+        E 120 80 41 00
+        E 0 80 33 00
+        E 120 90 33 60
+        E 0 90 24 60
+        E 120 80 33 00
+        E 0 80 24 00
+        E 120 90 41 71
+        E 0 90 33 60
+        E 0 90 26 60
+        E 120 80 41 00
+        E 0 80 33 00
+        E 0 80 26 00
+        E 120 90 33 60
+        E 120 80 33 00
+        E 120 90 41 71
+        E 0 90 33 60
+        E 120 80 41 00
+        E 0 80 33 00
+        E 120 90 24 71
+        E 0 90 33 60
+        E 120 80 24 00
+        E 0 80 33 00
+        E 120 90 24 71
+        E 0 90 41 71
+        E 0 90 33 60
+        E 120 80 24 00
+        E 0 80 41 00
+        E 0 80 33 00
+        E 120 90 33 60
+        E 120 80 33 00
+        E 120 90 41 71
+        E 0 90 33 60
+        E 0 90 24 71
+        E 120 80 41 00
+        E 0 80 33 00
+        E 0 80 24 00
+        E 120 90 33 60
+        E 120 80 33 00
+        E 120 90 41 71
+        E 0 90 33 60
+        E 0 90 26 71
+        E 120 80 41 00
+        E 0 80 33 00
+        E 0 80 26 00
+        E 120 90 33 60
+        E 0 90 24 60
+        E 0 90 39 60
+        E 120 80 33 00
+        E 0 80 24 00
+        E 0 80 39 00
+        E 120 90 41 71
+        E 0 90 33 60
+        E 120 80 41 00
+        E 0 80 33 00
+        E 120 90 24 71
+        E 120 80 24 00
+        E 120 90 41 71
+        E 0 90 39 60
+        E 0 90 31 60
+        E 0 90 24 71
+        E 120 80 41 00
+        E 0 80 39 00
+        E 0 80 31 00
+        E 0 80 24 00
+        E 120 90 33 60
+        E 120 80 33 00
+        E 120 90 41 71
+        E 0 90 33 60
+        E 120 80 41 00
+        E 0 80 33 00
+        E 120 90 33 60
+        E 0 90 24 71
+        E 120 80 33 00
+        E 0 80 24 00
+        E 120 90 41 71
+        E 0 90 33 60
+        E 0 90 26 71
+        E 0 90 39 71
+        E 120 80 41 00
+        E 0 80 33 00
+        E 0 80 26 00
+        E 0 80 39 00
+        E 120 90 33 60
+        E 120 80 33 00
+        E 120 90 41 71
+        E 0 90 33 60
+        E 120 80 41 00
+        E 0 80 33 00
+        E 120 90 33 60
+        E 0 90 24 71
+        E 120 80 33 00
+        E 0 80 24 00
+        E 120 90 39 60
+        E 0 90 31 60
+        E 0 90 41 71
+        E 0 90 33 60
+        E 0 90 24 71
+        E 120 80 39 00
+        E 0 80 31 00
+        E 0 80 41 00
+        E 0 80 33 00
+        E 0 80 24 00
+        E 360 90 41 71
+        E 0 90 24 60
+        E 120 80 41 00
+        E 0 80 24 00
+        E 0 90 26 60
+        E 120 80 26 00
+        E 0 90 26 60
+        E 120 80 26 00
+        E 0 90 26 60
+        E 120 80 26 00
+        E 0 90 41 71
+        E 0 90 26 60
+        E 120 80 41 00
+        E 0 80 26 00
+        E 0 90 2d 60
+        E 120 80 2d 00
+        E 0 90 2d 60
+        E 120 80 2d 00
+        E 120 90 41 71
+        E 0 90 26 60
+        E 120 80 41 00
+        E 0 80 26 00
+        e 120 90 23 60
+        e 120 80 23 00
+        E 120 90 41 71
+        E 0 90 39 60
+        E 0 90 31 60
+        E 0 90 24 60
+        E 120 80 41 00
+        E 0 80 39 00
+        E 0 80 31 00
+        E 0 80 24 00
+        E 120 90 33 60
+        E 120 80 33 00
+        E 120 90 41 71
+        E 0 90 33 60
+        E 120 80 41 00
+        E 0 80 33 00
+        E 120 90 33 60
+        E 0 90 24 60
+        E 120 80 33 00
+        E 0 80 24 00
+        E 120 90 41 71
+        E 0 90 33 60
+        E 0 90 26 60
+        E 120 80 41 00
+        E 0 80 33 00
+        E 0 80 26 00
+        E 120 90 33 60
+        E 0 90 24 71
+        E 120 80 33 00
+        E 0 80 24 00
+        E 120 90 41 71
+        E 0 90 33 60
+        E 0 90 24 71
+        E 120 80 41 00
+        E 0 80 33 00
+        E 0 80 24 00
+        E 120 90 33 60
+        E 120 80 33 00
+        E 120 90 41 71
+        E 0 90 33 60
+        E 0 90 24 71
+        E 0 90 39 71
+        E 120 80 41 00
+        E 0 80 33 00
+        E 0 80 24 00
+        E 0 80 39 00
+        E 120 90 33 60
+        E 0 90 24 71
+        E 120 80 33 00
+        E 0 80 24 00
+        E 120 90 41 71
+        E 0 90 33 60
+        E 120 80 41 00
+        E 0 80 33 00
+        E 120 90 33 60
+        E 0 90 24 71
+        E 120 80 33 00
+        E 0 80 24 00
+        E 0 90 24 71
+        E 60 80 24 00
+        E 60 90 41 71
+        E 0 90 33 60
+        E 0 90 26 71
+        E 120 80 41 00
+        E 0 80 33 00
+        E 0 80 26 00
+        E 120 90 33 60
+        E 0 90 24 60
+        E 60 90 3c 60
+        E 60 80 33 00
+        E 0 80 24 00
+        E 60 80 3c 00
+        E 60 90 41 71
+        E 0 90 33 60
+        E 120 80 41 00
+        E 0 80 33 00
+        E 120 90 24 71
+        E 120 80 24 00
+        E 120 90 41 71
+        E 0 90 39 60
+        E 0 90 31 60
+        E 0 90 24 71
+        E 120 80 41 00
+        E 0 80 39 00
+        E 0 80 31 00
+        E 0 80 24 00
+        E 120 90 33 60
+        E 120 80 33 00
+        E 120 90 41 71
+        E 0 90 33 60
+        E 120 80 41 00
+        E 0 80 33 00
+        E 120 90 33 60
+        E 0 90 24 71
+        E 120 80 33 00
+        E 0 80 24 00
+        E 0 90 24 60
+        E 60 80 24 00
+        E 60 90 31 60
+        E 0 90 41 71
+        E 0 90 26 71
+        E 120 80 31 00
+        E 0 80 41 00
+        E 0 80 26 00
+        E 120 90 30 71
+        E 120 80 30 00
+        E 120 90 41 71
+        E 0 90 2d 71
+        E 120 80 41 00
+        E 0 80 2d 00
+        E 360 90 39 60
+        E 0 90 31 60
+        E 0 90 41 71
+        E 0 90 24 71
+        E 120 80 39 00
+        E 0 80 31 00
+        E 0 80 41 00
+        E 0 80 24 00
+        E 360 90 41 71
+        E 120 80 41 00
+        E 360 90 41 71
+        E 120 80 41 00
+        E 360 90 41 71
+        E 120 80 41 00
+        E 360 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {B410C6CE-122E-4168-A76F-5E4F55C7CED6}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 37
+        VELLANE -1 36 0
+        CFGEDITVIEW 53473.311442 0.274899 75 13 0 -1 70 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 65545 1 1 1 1 1 0.125 22 102 1270 1005 1 3 0 2 0 0 0 0 0 0.5 0 0 1 64
       >
     >
   >
@@ -3390,7 +6362,7 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 3.98107170553497 -1 -1 -1 1
-    MUTESOLO 1 2 0
+    MUTESOLO 1 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
@@ -3456,6 +6428,7 @@
       0 45 "Mid Conga" 0 45
       0 46 "High Conga" 0 46
       0 47 "Hand Clap" 0 47
+      0 48 Clave 0 48
       -1 48 Clave 0 48
       0 49 Maraca 0 49
       0 50 Cowbell 0 50
@@ -3783,17 +6756,17 @@
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
-    VOLPAN 3.98107170553497 0 -1 -1 1
-    MUTESOLO 0 2 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
-    SEL 1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
+    SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 232 0 0 0 0 0
+    TRACKHEIGHT 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -3820,14 +6793,14 @@
       CHANMODE 0
       GUID {12B6ABCE-1AB6-42B6-824A-0F7373108836}
       <SOURCE VIDEO
-        FILE "video\how-to-play-black-hole-sun-by-soundgarden-note-for-note-drums-and-notation.mp4"
+        FILE "video-in\how-to-play-black-hole-sun-by-soundgarden-note-for-note-drums-and-notation.mp4"
       >
       SM 0 11.098493545 + 0.000001 11.385246423 + 14.473530886 25.642209894 + 16.86172514 27.954385194 + 53.533071061 64.497708723 + 55.809432229 66.79578999 + 59.208891795 70.243118896 + 71.673576872 82.771825762 + 322.819519599 333.918013145
     >
     <ITEM
       POSITION 78.02836624373801
       SNAPOFFS 0
-      LENGTH 133.86127300254674
+      LENGTH 133.86127300278685
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0.01 0 1 0 0 0
@@ -3843,9 +6816,9 @@
       CHANMODE 0
       GUID {D9B25A8A-2035-4945-8F66-EC0EE0856223}
       <SOURCE VIDEO
-        FILE "video\how-to-play-black-hole-sun-by-soundgarden-note-for-note-drums-and-notation.mp4"
+        FILE "video-in\how-to-play-black-hole-sun-by-soundgarden-note-for-note-drums-and-notation.mp4"
       >
-      SM -73.93988325 11.098493545 + -73.93988225 11.385246423 + -59.466352363 25.642209894 + -57.07815811 27.954385194 + -20.406812189 64.497708723 + -18.130451021 66.79578999 + -14.730991455 70.243118896 + -2.266306378 82.771825762 + 0 85.038134347 + 2.24127876 87.35169187 + 20.49652934 105.672420274 + 25.096970555 110.226258064 + 38.810435061 123.908418462 + 41.052415319 126.230833655 + 59.19684658 144.53860974 + 72.795539904 158.212216409 + 77.320164695 162.805785605 + 84.037448599 169.652108357 + 92.998840003 178.786786748 + 97.449199738 183.376721261 + 99.671233572 185.669038321 + 104.610379492 190.762540139 + 114.496897683 201.09516888 + 119.434114232 206.235777469 + 124.37133078 211.37509644 + 133.861273003 221.09799022 + 136.147844094 223.384561312 + 140.682746969 227.934004192 + 246.631304566 333.918013145
+      SM -73.93988325 11.098493545 + -73.93988225 11.385246423 + -59.466352363 25.642209894 + -57.07815811 27.954385194 + -20.406812189 64.497708723 + -18.130451021 66.79578999 + -14.730991455 70.243118896 + -2.266306378 82.771825762 + 0 85.038134347 + 2.24127876 87.35169187 + 20.49652934 105.672420274 + 25.096970555 110.226258064 + 38.810435061 123.908418462 + 41.052415319 126.230833655 + 59.19684658 144.53860974 + 72.795539904 158.212216409 + 77.320164695 162.805785605 + 84.037448599 169.652108357 + 92.998840003 178.786786748 + 97.449199738 183.376721261 + 99.671233572 185.669038321 + 104.610379492 190.762540139 + 114.496897683 201.09516888 + 119.434114232 206.235777469 + 124.37133078 211.37509644 + 129.326370127 216.522750378 + 133.861273003 221.09799022 + 136.147844094 223.384561312 + 140.682746969 227.934004192 + 246.631304566 333.918013145
     >
     <ITEM
       POSITION 211.88963924628473
@@ -3866,7 +6839,7 @@
       CHANMODE 0
       GUID {F6676E06-AF82-4A8B-9F5C-C8B7E4B58A03}
       <SOURCE VIDEO
-        FILE "video\how-to-play-black-hole-sun-by-soundgarden-note-for-note-drums-and-notation.mp4"
+        FILE "video-in\how-to-play-black-hole-sun-by-soundgarden-note-for-note-drums-and-notation.mp4"
       >
       SM -207.801156253 11.098493545 + -207.801155253 11.385246423 + -193.327625366 25.642209894 + -190.939431113 27.954385194 + -154.268085192 64.497708723 + -151.991724024 66.79578999 + -148.592264458 70.243118896 + -136.127579381 82.771825762 + -133.861273003 85.038134347 + -131.619994243 87.35169187 + -113.364743663 105.672420274 + -108.764302448 110.226258064 + -95.050837942 123.908418462 + -92.808857684 126.230833655 + -74.664426423 144.53860974 + -61.065733099 158.212216409 + -56.541108308 162.805785605 + -49.823824403 169.652108357 + -40.862433 178.786786748 + -36.412073265 183.376721261 + -34.190039431 185.669038321 + -29.25089351 190.762540139 + -19.364375319 201.09516888 + -14.427158771 206.235777469 + -9.489942223 211.37509644 + 0 221.09799022 + 2.286571091 223.384561312 + 6.821473966 227.934004192 + 112.770031563 333.918013145
     >
@@ -3889,7 +6862,7 @@
       CHANMODE 0
       GUID {61B91E68-09B4-4CFB-B2D2-42970D184B28}
       <SOURCE VIDEO
-        FILE "video\how-to-play-black-hole-sun-by-soundgarden-note-for-note-drums-and-notation.mp4"
+        FILE "video-in\how-to-play-black-hole-sun-by-soundgarden-note-for-note-drums-and-notation.mp4"
       >
       SM -207.801156253 11.098493545 + -207.801155253 11.385246423 + -193.327625366 25.642209894 + -190.939431113 27.954385194 + -154.268085192 64.497708723 + -151.991724024 66.79578999 + -148.592264458 70.243118896 + -136.127579381 82.771825762 + -133.861273003 85.038134347 + -131.619994243 87.35169187 + -113.364743663 105.672420274 + -108.764302448 110.226258064 + -95.050837942 123.908418462 + -92.808857684 126.230833655 + -74.664426423 144.53860974 + -61.065733099 158.212216409 + -56.541108308 162.805785605 + -49.823824403 169.652108357 + -40.862433 178.786786748 + -36.412073265 183.376721261 + -34.190039431 185.669038321 + -29.25089351 190.762540139 + -19.364375319 201.09516888 + -14.427158771 206.235777469 + -9.489942223 211.37509644 + 0 221.09799022 + 2.286571091 223.384561312 + 6.821473966 227.934004192 + 112.770031563 333.918013145
     >
@@ -3902,7 +6875,7 @@
       FADEIN 1 0.01 0 1 0 0 0
       FADEOUT 1 0.01 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {2C6A1E66-34F7-4178-B0D6-448767EEAECC}
       IID 68
       NAME VIDEO
@@ -3912,7 +6885,7 @@
       CHANMODE 0
       GUID {24CA9630-6FDB-42C3-9CB4-5A7760B7BD3D}
       <SOURCE VIDEO
-        FILE "video\how-to-play-black-hole-sun-by-soundgarden-note-for-note-drums-and-notation.mp4"
+        FILE "video-in\how-to-play-black-hole-sun-by-soundgarden-note-for-note-drums-and-notation.mp4"
       >
       SM -210.06860769 11.098493545 + -210.06860669 11.385246423 + -195.595076803 25.642209894 + -193.20688255 27.954385194 + -156.535536629 64.497708723 + -154.259175461 66.79578999 + -150.859715895 70.243118896 + -138.395030818 82.771825762 + -136.12872444 85.038134347 + -133.88744568 87.35169187 + -115.6321951 105.672420274 + -111.031753885 110.226258064 + -97.318289379 123.908418462 + -95.076309121 126.230833655 + -76.93187786 144.53860974 + -63.333184536 158.212216409 + -58.808559746 162.805785605 + -52.091275841 169.652108357 + -43.129884438 178.786786748 + -38.679524703 183.376721261 + -36.457490868 185.669038321 + -31.518344948 190.762540139 + -21.631826757 201.09516888 + -16.694610209 206.235777469 + -11.75739366 211.37509644 + -2.267451438 221.09799022 + 0.019119653 223.384561312 + 4.534902875 227.934004192 + 6.759413463 230.241866464 + 15.818835474 239.38226377 + 24.77279199 248.509226772
       SM 33.733987958 257.669635748 + 38.210133539 262.23882874 + 42.68627912 266.807694431 + 44.924351911 269.087130494 + 49.381432588 273.647897034 + 51.633475364 275.934299128 + 56.12917832 280.506227587 + 58.23958915 282.729784482 + 62.62987998 287.370203286 + 64.836974293 289.660205093 + 69.264230932 294.245085468 + 71.460822304 296.526097422 + 78.040844623 303.385817244 + 84.653412505 310.210469235 + 91.257145496 317.094131886 + 96.318995361 322.231415091 + 110.502580126 333.918013145
@@ -3923,8 +6896,8 @@
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
-    VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    VOLPAN 0.36050894125466 0 -1 -1 1
+    MUTESOLO 1 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
@@ -3953,14 +6926,14 @@
       SEL 0
       IGUID {C0D7A7CA-3428-443B-9A6D-CB65DE457330}
       IID 2
-      NAME "Soundgarden-Black Hole Sun (drumless)-.mp3"
+      NAME bhs-drumless.mp3
       VOLPAN 1 0 1 -1
       SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {B599D6C9-2592-4B32-A7FC-06E1D3BC9BEA}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun (drumless)-.mp3" 1
+        FILE "audio-in\bhs-drumless.mp3" 1
       >
     >
     <ITEM
