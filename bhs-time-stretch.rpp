@@ -172,14 +172,14 @@
       SEL 0
       IGUID {6C557301-E193-47BA-8E0A-4E6A5FB8A44F}
       IID 2
-      NAME "Soundgarden-Black Hole Sun (drumless)-.mp3"
+      NAME "bhs-drumless.mp3"
       VOLPAN 1 0 1 -1
       SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {549E08D9-B224-4DB0-9034-B9C47CF49D9C}
       <SOURCE MP3
-        FILE "Soundgarden-Black Hole Sun (drumless)-.mp3" 1
+        FILE "bhs-drumless.mp3" 1
       >
     >
   >
