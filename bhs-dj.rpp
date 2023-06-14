@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "6.68/win64" 1683705733
+<REAPER_PROJECT 0.1 "6.68/win64" 1686732677
   <NOTES 0 2
   >
   RIPPLE 0
@@ -16,13 +16,13 @@
   TIMEMODE 1 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 207.35473637101225
-  ZOOM 3.18122725052627 0 0
-  VZOOMEX 10 0
+  CURSOR 0
+  ZOOM 28.36414171442147 0 0
+  VZOOMEX 10 8
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
-  LOOP 1
+  LOOP 0
   LOOPGRAN 0 4
   RECORD_PATH "" ""
   <RECORD_CFG
@@ -59,8 +59,8 @@
   GLOBAL_AUTO -1
   TEMPO 120 4 4
   PLAYRATE 1 1 0.25 4
-  SELECTION 312.74353748223882 0
-  SELECTION2 312.74353748223882 0
+  SELECTION 220.95944499682801 259.11082124164102
+  SELECTION2 220.95944499682801 259.11082124164102
   MASTERAUTOMODE 0
   MASTERTRACKHEIGHT 0 0
   MASTERPEAKCOL 16576
@@ -1595,14 +1595,14 @@
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
-    VOLPAN 3.98107170553497 0 -1 -1 1
+    VOLPAN 0.1302370116574 0 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -2247,212 +2247,19 @@
       >
     >
   >
-  <TRACK {617CC154-6996-4340-BC47-252265EA1934}
-    NAME PARTS
-    PEAKCOL 16576
-    BEAT -1
-    AUTOMODE 0
-    VOLPAN 1.51029054812145 0 -1 -1 1
-    MUTESOLO 0 0 0
-    IPHASE 0
-    PLAYOFFS 0 1
-    ISBUS 1 1
-    BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
-    SEL 0
-    REC 0 0 1 0 0 0 0 0
-    VU 2
-    TRACKHEIGHT 0 0 0 0 0 0
-    INQ 0 0 0 0.5 100 0 0 100
-    NCHAN 2
-    FX 0
-    TRACKID {617CC154-6996-4340-BC47-252265EA1934}
-    PERF 0
-    MIDIOUT -1
-    MAINSEND 1 0
-    <VOLENV2
-      EGUID {8E228447-EACE-4100-9429-2F283B110518}
-      ACT 1 -1
-      VIS 1 1 1
-      LANEHEIGHT 0 0
-      ARM 1
-      DEFSHAPE 0 -1 -1
-      VOLTYPE 1
-      PT 0 0.36739544 0
-    >
-    <FXCHAIN
-      WNDRECT 24 52 703 200
-      SHOW 0
-      LASTSEL 1
-      DOCKED 0
-      BYPASS 0 0 0
-      <JS sstillwell/1175 ""
-        0 5 0 20 250 100 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-      >
-      JS_DIMS 489 210
-      FLOATPOS 0 0 0 0
-      FXID {8AEFF077-6463-4DCF-A455-D669EDE04E2A}
-      WAK 0 0
-      BYPASS 0 0 0
-      <JS sstillwell/eventhorizon2 ""
-        0 -2.5 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-      >
-      FLOATPOS 0 0 0 0
-      FXID {A0AA0C57-3579-497A-A68D-003179B9191B}
-      WAK 0 0
-    >
-  >
-  <TRACK {EF500CBE-2B7C-49C0-8BFF-585C40A5F375}
-    NAME GUITAR
-    PEAKCOL 16576
-    BEAT -1
-    AUTOMODE 0
-    VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
-    IPHASE 0
-    PLAYOFFS 0 1
-    ISBUS 0 0
-    BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
-    SEL 0
-    REC 0 0 1 0 0 0 0 0
-    VU 2
-    TRACKHEIGHT 0 0 0 0 0 0
-    INQ 0 0 0 0.5 100 0 0 100
-    NCHAN 2
-    FX 1
-    TRACKID {EF500CBE-2B7C-49C0-8BFF-585C40A5F375}
-    PERF 0
-    MIDIOUT -1
-    MAINSEND 1 0
-    <ITEM
-      POSITION 3.84553298235501
-      SNAPOFFS 0
-      LENGTH 329.67258503401359
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {2BB103E9-CCCF-48AD-ADEC-8023DE06A695}
-      IID 5
-      NAME bhs-guitar.mp3
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {6109C1D2-BE23-4730-89DF-B6D99CD8BC86}
-      <SOURCE MP3
-        FILE "audio-in\bhs-guitar.mp3" 1
-      >
-    >
-  >
-  <TRACK {722F82F4-9650-4965-9F97-87A4D4B7D057}
-    NAME BASS
-    PEAKCOL 16576
-    BEAT -1
-    AUTOMODE 0
-    VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
-    IPHASE 0
-    PLAYOFFS 0 1
-    ISBUS 0 0
-    BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
-    SEL 0
-    REC 0 0 1 0 0 0 0 0
-    VU 2
-    TRACKHEIGHT 0 0 0 0 0 0
-    INQ 0 0 0 0.5 100 0 0 100
-    NCHAN 2
-    FX 1
-    TRACKID {722F82F4-9650-4965-9F97-87A4D4B7D057}
-    PERF 0
-    MIDIOUT -1
-    MAINSEND 1 0
-    <ITEM
-      POSITION 3.78333671535631
-      SNAPOFFS 0
-      LENGTH 329.67258503401359
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {CAF6EE54-2A1E-45B2-B871-2BE4CE6C73D3}
-      IID 153
-      NAME bhs-bass.mp3
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {6D5F9FEB-D2D9-4E7E-B586-0CF21F2B8B7D}
-      <SOURCE MP3
-        FILE "audio-in\bhs-bass.mp3" 1
-      >
-    >
-  >
-  <TRACK {989169D6-E942-4EBD-812E-51FB3F112F12}
-    NAME VOICE
-    PEAKCOL 16576
-    BEAT -1
-    AUTOMODE 0
-    VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
-    IPHASE 0
-    PLAYOFFS 0 1
-    ISBUS 2 -1
-    BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
-    SEL 0
-    REC 0 0 1 0 0 0 0 0
-    VU 2
-    TRACKHEIGHT 0 0 0 0 0 0
-    INQ 0 0 0 0.5 100 0 0 100
-    NCHAN 2
-    FX 1
-    TRACKID {989169D6-E942-4EBD-812E-51FB3F112F12}
-    PERF 0
-    MIDIOUT -1
-    MAINSEND 1 0
-    <ITEM
-      POSITION 3.70422076840336
-      SNAPOFFS 0
-      LENGTH 329.67258503401359
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {BE3A87D6-0F0E-40F8-BC8E-F6355F362E2F}
-      IID 5
-      NAME bhs-voice.mp3
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {DD223826-6F6E-416E-A308-D0550704BDCF}
-      <SOURCE MP3
-        FILE "audio-in\bhs-voice.mp3" 1
-      >
-    >
-  >
   <TRACK {87D900C0-627F-4F43-B580-A0B413243D08}
     NAME CLICKS
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 1 0 0
+    MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 1 1
     BUSCOMP 0 1 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
-    SEL 0
+    SEL 1
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -2942,7 +2749,7 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 2 -1
@@ -2987,6 +2794,199 @@
         SAMPLES "" ""
         PATTERN 2863311530 2863311529
         MULT 1
+      >
+    >
+  >
+  <TRACK {617CC154-6996-4340-BC47-252265EA1934}
+    NAME PARTS
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 1 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 1 1
+    BUSCOMP 0 1 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 0
+    TRACKID {617CC154-6996-4340-BC47-252265EA1934}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <VOLENV2
+      EGUID {8E228447-EACE-4100-9429-2F283B110518}
+      ACT 1 -1
+      VIS 1 1 1
+      LANEHEIGHT 0 0
+      ARM 1
+      DEFSHAPE 0 -1 -1
+      VOLTYPE 1
+      PT 0 0.36739544 0
+    >
+    <FXCHAIN
+      WNDRECT 24 52 703 200
+      SHOW 0
+      LASTSEL 1
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS sstillwell/1175 ""
+        0 5 0 20 250 100 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      JS_DIMS 489 210
+      FLOATPOS 0 0 0 0
+      FXID {8AEFF077-6463-4DCF-A455-D669EDE04E2A}
+      WAK 0 0
+      BYPASS 0 0 0
+      <JS sstillwell/eventhorizon2 ""
+        0 -2.5 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      FLOATPOS 0 0 0 0
+      FXID {A0AA0C57-3579-497A-A68D-003179B9191B}
+      WAK 0 0
+    >
+  >
+  <TRACK {EF500CBE-2B7C-49C0-8BFF-585C40A5F375}
+    NAME GUITAR
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {EF500CBE-2B7C-49C0-8BFF-585C40A5F375}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 3.84553298235501
+      SNAPOFFS 0
+      LENGTH 329.67258503401359
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2BB103E9-CCCF-48AD-ADEC-8023DE06A695}
+      IID 5
+      NAME bhs-guitar.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6109C1D2-BE23-4730-89DF-B6D99CD8BC86}
+      <SOURCE MP3
+        FILE "audio-in\bhs-guitar.mp3" 1
+      >
+    >
+  >
+  <TRACK {722F82F4-9650-4965-9F97-87A4D4B7D057}
+    NAME BASS
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {722F82F4-9650-4965-9F97-87A4D4B7D057}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 3.78333671535631
+      SNAPOFFS 0
+      LENGTH 329.67258503401359
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {CAF6EE54-2A1E-45B2-B871-2BE4CE6C73D3}
+      IID 153
+      NAME bhs-bass.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6D5F9FEB-D2D9-4E7E-B586-0CF21F2B8B7D}
+      <SOURCE MP3
+        FILE "audio-in\bhs-bass.mp3" 1
+      >
+    >
+  >
+  <TRACK {989169D6-E942-4EBD-812E-51FB3F112F12}
+    NAME VOICE
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 2 -1
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {989169D6-E942-4EBD-812E-51FB3F112F12}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 3.70422076840336
+      SNAPOFFS 0
+      LENGTH 329.67258503401359
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {BE3A87D6-0F0E-40F8-BC8E-F6355F362E2F}
+      IID 5
+      NAME bhs-voice.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DD223826-6F6E-416E-A308-D0550704BDCF}
+      <SOURCE MP3
+        FILE "audio-in\bhs-voice.mp3" 1
       >
     >
   >
